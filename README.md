@@ -8,8 +8,7 @@ Our World is a survival Minecraft server. This is some of the server configurati
 
 What's included:
 
-+ Configuration folders
-+ Plugin `.jar` files
++ Configuration folders and files
 + Server software configurations `eg: paper.yml`
 
 What's not included:
@@ -25,6 +24,7 @@ What's not included:
 + Operators
 + WorldGuard data
 + Passwords or Secret keys
++ Plugin `.jar` files
 
 ## Contributing
 
