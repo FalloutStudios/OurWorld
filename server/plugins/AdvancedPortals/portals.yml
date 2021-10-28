@@ -1,0 +1,68 @@
+# Edited by: FalloutStudios
+# 
+#  ExamplePortal:
+#    world: it will be the world name
+#    triggerblock: LAVA # will only be used if the hastriggerblock is true and can be id or text
+#    pos1: # dont mess with the data here, if you do it may stop the portal from working.
+#      X:
+#      Y:
+#      Z:
+#    pos2:
+#      X:
+#      Y:
+#      Z:
+#    destination:
+#      issetpoint: true # if this was false point name would not be used and the coordinates would be saved here, it just adds more customisation.
+#      pointname: examplepoint # if issetpoint is false this wont be here and tppos will be.
+#      tppos:
+#        X:
+#        Y:
+#        Z:
+
+pvparena:
+  world: world
+  triggerblock: NETHER_PORTAL
+  destination: pvparena
+  pos1:
+    X: 250
+    Y: 69
+    Z: 829
+  pos2:
+    X: 247
+    Y: 66
+    Z: 829
+  portalArgs:
+    particlein: 'true'
+    particleout: 'true'
+    delayed: 'true'
+world:
+  world: PvPArena
+  triggerblock: NETHER_PORTAL
+  destination: world
+  pos1:
+    X: -3587
+    Y: 72
+    Z: 1066
+  pos2:
+    X: -3587
+    Y: 68
+    Z: 1063
+  portalArgs:
+    particlein: 'true'
+    particleout: 'true'
+    delayed: 'true'
+nothing:
+  world: PvPArena
+  triggerblock: NETHER_PORTAL
+  destination: world
+  pos1:
+    X: -3573
+    Y: 72
+    Z: 1068
+  pos2:
+    X: -3581
+    Y: 69
+    Z: 1060
+  portalArgs:
+    particlein: totem
+    delayed: 'true'
