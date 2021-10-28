@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://www.ourmcworld.ml/lgo.png" height="" width="125">
+    <img src="https://i.imgur.com/rX8dHRR.png" height="" width="125">
 </h1>
 
 Our World is a survival Minecraft server. This is some of the server configurations from **Our World**.
