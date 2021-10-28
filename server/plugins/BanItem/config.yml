@@ -1,0 +1,74 @@
+# Edited by: FalloutStudios
+# +———————————————————————————————————————————————————+ #
+# |——————————     BANITEM CONFIGURATION     ——————————| #
+# |——————————————————      v3.1      —————————————————| #
+# +———————————————————————————————————————————————————+ #
+# |                   Documentation:                  | #
+# |             https://banitem.andross.fr/           | #
+# +———————————————————————————————————————————————————+ #
+# For any bugs/suggestions: Andross#5254
+# +——————————————————————————————————————————————————————————————————————————————————————————————+
+# General Informations:
+#  - The blacklist will block the items.
+#  - The whitelist will allow only the items set.
+#    -> The 'message' key represents the message sent to players if they try to use an item which is not in whitelist
+#    -> The 'ignored' key represents all ignored actions (they will not being by default banned)
+debug:
+  errors: true
+  reload: false
+  colors-console: false
+no-permission: '&cYou do not have permission.'
+prefix: '&c&l[&e&lBanItem&c&l] '
+api:
+  playerbanitemevent: false
+  deletebanneditemevent: false
+check-update: true
+priority: place,consume
+actions:
+  enchant:
+    material: BARRIER
+    displayname: '&cBANNED'
+    lore:
+    - '&cYou can not add this'
+    - '&cenchantement.'
+  rename:
+  - /rename
+  transfer:
+    hoppers-block: false
+  wear:
+    region-check: false
+    scanner: true
+  delete:
+    ignored-inventories-titles:
+    - My Cool Gui
+    - Shop
+hooks:
+  worldguard: false
+sound:
+  enabled: true
+  type: ENCHANT_THORNS_HIT
+  volume: 1
+  pitch: 1
+  worldSound: false
+particle:
+  enabled: true
+  type: BARRIER
+  amount: 1
+blacklist:
+  world:
+    barrier:
+      hold: '&cYou can not hold this damn barrier!'
+      place: '&cYou can not place barrier blocks!'
+    debug_stick:
+      hold: '&cYou can not hold this!'
+      interact: '&cYou can not use debug sticks lol'
+    bedrock:
+      hold: '&cYou can not hold this.'
+      place: '&cYou can not place bedrocks.'
+      break: '&cWTH that''s illegal'
+    command_block:
+      break: '&cWait that''s illegal'
+      hold: '&cWait that''s illegal! Why you have command block?'
+    end_portal_frame:
+      hold: '&cThat''s illegal bitch'
+      place: '&cYou can not make new end portal!'
