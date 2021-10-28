@@ -30,6 +30,10 @@ If you want to make a contribution or modify things, please submit a pull reques
 
 ## Usage
 
-**NOTE**: `If you are using these configurations, we will be unable to provide assistance for your server. The above repository is for those who like to know how the server is set up.`
+**NOTE**: 
+
+```
+If you are using these configurations, we will be unable to provide assistance for your server. The above repository is for those who like to know how the server is set up.
+```
 
 <p align="center">(c) FalloutStudios</p>
