@@ -49,7 +49,7 @@ flight:
 # Checks for illegal upward elytra movement
 elytrafly:
   # Should this check be enabled?
-  enabled: true
+  enabled: false
 # Speed check settings
 # Checks if a player moves too fast
 speed:
@@ -82,7 +82,7 @@ speed:
   # Debugs as 'moved too fast on ground'
   groundSpeed:
     # Should this part of the check be enabled?
-    enabled: true
+    enabled: false
     # Initial speed limit value
     initialLimit: 0.34
   # Checks movement acceleration in the air
