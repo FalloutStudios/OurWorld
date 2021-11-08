@@ -84,7 +84,7 @@ speed:
     # Should this part of the check be enabled?
     enabled: true
     # Initial speed limit value
-    initialLimit: 0.34
+    initialLimit: 0.50
   # Checks movement acceleration in the air
   # Debugs as 'exceeded vertical speed limit'
   verticalSpeed:
