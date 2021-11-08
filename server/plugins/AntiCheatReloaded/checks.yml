@@ -82,7 +82,7 @@ speed:
   # Debugs as 'moved too fast on ground'
   groundSpeed:
     # Should this part of the check be enabled?
-    enabled: false
+    enabled: true
     # Initial speed limit value
     initialLimit: 0.34
   # Checks movement acceleration in the air
