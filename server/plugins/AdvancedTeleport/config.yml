@@ -105,7 +105,7 @@ add-cooldown-duration-to-warm-up: true
 # Whether or not the cooldown of one command will stop a user from using all commands.
 # For example, if a player used /tpa with a cooldown of 10 seconds but then used /tpahere with a cooldown of 5, the 10-second cooldown would still apply.
 # On the other hand, if a player used /tpahere, the cooldown of 5 seconds would apply to /tpa and other commands.
-apply-cooldown-to-all-commands: true
+apply-cooldown-to-all-commands: false
 
 # When to apply the cooldown
 # Options include:
