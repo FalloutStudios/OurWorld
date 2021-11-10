@@ -90,9 +90,9 @@ AvatarUrl: https://ourmcworld.ml/?avatar={username}
 
 # Reserializer
 # Converts formatting (bold, italics, underline, strikethrough) between Minecraft and Discord
-Experiment_MCDiscordReserializer_ToDiscord: false
-Experiment_MCDiscordReserializer_ToMinecraft: false
-Experiment_MCDiscordReserializer_InBroadcast: false
+Experiment_MCDiscordReserializer_ToDiscord: true
+Experiment_MCDiscordReserializer_ToMinecraft: true
+Experiment_MCDiscordReserializer_InBroadcast: true
 
 # Other
 CancelConsoleCommandIfLoggingFailed: true
