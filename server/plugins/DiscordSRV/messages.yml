@@ -203,7 +203,7 @@ MinecraftPlayerJoinMessage:
     Enabled: true
     Color: "#00ff00"
     Author:
-      ImageUrl: "%embedavatarurl%"
+      ImageUrl: "%embedavatarurl%&cache=%date%"
       Name: "%username% joined the server"
       Url: ""
     ThumbnailUrl: ""
@@ -232,7 +232,7 @@ MinecraftPlayerFirstJoinMessage:
     Enabled: true
     Color: "#ffd700"
     Author:
-      ImageUrl: "%embedavatarurl%"
+      ImageUrl: "%embedavatarurl%&cache=%date%"
       Name: "%username% joined the server for the first time"
       Url: ""
     ThumbnailUrl: ""
@@ -261,7 +261,7 @@ MinecraftPlayerLeaveMessage:
     Enabled: true
     Color: "#ff0000"
     Author:
-      ImageUrl: "%embedavatarurl%"
+      ImageUrl: "%embedavatarurl%&cache=%date%"
       Name: "%username% left the server"
       Url: ""
     ThumbnailUrl: ""
@@ -291,7 +291,7 @@ MinecraftPlayerDeathMessage:
     Enabled: true
     Color: "#000000"
     Author:
-      ImageUrl: "%embedavatarurl%"
+      ImageUrl: "%embedavatarurl%&cache=%date%"
       Name: "%deathmessage%"
       Url: ""
     ThumbnailUrl: ""
@@ -321,7 +321,7 @@ MinecraftPlayerAchievementMessage:
     Enabled: true
     Color: "#ffd700"
     Author:
-      ImageUrl: "%embedavatarurl%"
+      ImageUrl: "%embedavatarurl%&cache=%date%"
       Name: "%username% has made the advancement %achievement%!"
       Url: ""
     ThumbnailUrl: ""
