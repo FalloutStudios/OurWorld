@@ -33,7 +33,7 @@ Channels: {"global": "883269578791206942"}
 DiscordConsoleChannelId: "884753588105117726"
 
 # Invitation link shown to players when using /discord and on the message shown to unlinked players when linking is enforced
-DiscordInviteLink: "discord.gg/cFQga8gQ9B"
+DiscordInviteLink: "discord.gg/V5jC5PV5Pw"
 
 # Debug information
 # Don't enable these unless you're attempting to locate an issue
@@ -297,5 +297,5 @@ MinecraftDiscordAccountLinkedAllowRelinkBySendingANewCode: false
 # ServerWatchdogMessageCount: the amount of times ServerWatchdogMessage is sent. useful if you *really* want to make sure you know something's up
 #
 ServerWatchdogEnabled: true
-ServerWatchdogTimeout: 30
+ServerWatchdogTimeout: 10
 ServerWatchdogMessageCount: 1
