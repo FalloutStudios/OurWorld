@@ -10,7 +10,7 @@ flight:
   # Debugs as 'tried to fly on the Y-axis' or 'had too little Y dropoff'
   airFlight:
     # Should this part of the check be enabled?
-    enabled: true
+    enabled: false
     # How many milliseconds to account for block placement
     # Increase this if you get false positives when building a tower
     accountForBlockPlacement: 1500
@@ -24,7 +24,7 @@ flight:
   # Debugs as 'tried to climb air'
   airClimb:
     # Should this part of the check be enabled?
-    enabled: true
+    enabled: false
     # How many milliseconds to account for teleports
     # Increase this is you debug 'tried to climb air' after teleports
     accountForTeleports: 300
@@ -32,12 +32,12 @@ flight:
   # Debugs as 'faked ground to fly'
   groundFlight:
     # Should this part of the check be enabled?
-    enabled: true
+    enabled: false
   # Checks if a player ignores gravity
   # Debugs as 'ignored gravity'
   gravity:
     # Should this part of the check be enabled?
-    enabled: true
+    enabled: false
     # Maximum offset between predicted and actual gravity
     maxOffset: 0.005
     # How many milliseconds to account for teleports
@@ -57,7 +57,7 @@ speed:
   # Debugs as 'moved too fast in air'
   airSpeed:
     # Should this part of the check be enabled?
-    enabled: true
+    enabled: false
     # Base unadjusted air speed limit
     baseLimit: 0.03125
     # Prediction multiplier for custom walk speeds
@@ -66,7 +66,7 @@ speed:
   # Debugs as 'exceeded acceleration limits'
   airAcceleration:
     # Should this part of the check be enabled?
-    enabled: true
+    enabled: false
     # Base unadjusted air acceleration limit
     baseLimit: 0.3725
     # Limit multiplier for custom walk speeds
@@ -75,28 +75,28 @@ speed:
   # Debugs as 'had unexpected jumping behaviour'
   jumpBehaviour:
     # Should this part of the check be enabled?
-    enabled: true
+    enabled: false
     # Minimum movement distance needed to flag
     minimumDistXZ: 0.42
   # Checks movement speed on the ground
   # Debugs as 'moved too fast on ground'
   groundSpeed:
     # Should this part of the check be enabled?
-    enabled: true
+    enabled: false
     # Initial speed limit value
-    initialLimit: 0.50
+    initialLimit: 0.5
   # Checks movement acceleration in the air
   # Debugs as 'exceeded vertical speed limit'
   verticalSpeed:
     # Should this part of the check be enabled?
-    enabled: true
+    enabled: false
     # Extra compensation when moving off a ladder up a slab
     climbableCompensation: 0.04
 # Strafe check settings
 # Checks if a player switches movement angle in air
 strafe:
   # Should this check be enabled?
-  enabled: true
+  enabled: false
   # How many milliseconds to account for teleports
   accountForTeleports: 300
   # Maximum angle change when moving in air
@@ -315,7 +315,7 @@ spider:
 # Checks if the player tries to ignore fall damage
 nofall:
   # Should this check be enabled?
-  enabled: true
+  enabled: false
   # Amount of moves with a modified fall distance before flagging
   vlBeforeFlag: 6
 # Sprint check settings
@@ -329,7 +329,7 @@ sprint:
 # Checks if the player fires a bow too fast
 fastbow:
   # Should this check be enabled?
-  enabled: true
+  enabled: false
   # Maximum percent error between predicted bow force and actual bow force
   bowError: 0.25
 # FastEat check settings
