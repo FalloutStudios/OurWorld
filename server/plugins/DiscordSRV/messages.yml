@@ -250,6 +250,35 @@ MinecraftPlayerFirstJoinMessage:
 # Available placeholders for PlayerLeave messages:
 # %message%:        leave message as seen in-game
 #
+MinecraftPlayerFirstJoinMessage: 
+  Enabled: true
+  Webhook:
+    Enable: false
+    AvatarUrl: "%botavatarurl%"
+    Name: "%botname%"
+  Content: ""
+  Embed:
+    Enabled: true
+    Color: "#ffd700"
+    Author:
+      ImageUrl: "%embedavatarurl%"
+      Name: "%username% joined the server for the first time"
+      Url: ""
+    ThumbnailUrl: ""
+    Title:
+      Text: ""
+      Url: ""
+    Description: ""
+    Fields: []
+    ImageUrl: ""
+    Footer:
+      Text: ""
+      IconUrl: ""
+    Timestamp: false
+#
+# Available placeholders for PlayerLeave messages:
+# %message%:        leave message as seen in-game
+#
 MinecraftPlayerLeaveMessage: 
   Enabled: true
   Webhook:
@@ -261,7 +290,7 @@ MinecraftPlayerLeaveMessage:
     Enabled: true
     Color: "#ff0000"
     Author:
-      ImageUrl: "%embedavatarurl%&cache=%date%"
+      ImageUrl: "%embedavatarurl%"
       Name: "%username% left the server"
       Url: ""
     ThumbnailUrl: ""
@@ -291,7 +320,7 @@ MinecraftPlayerDeathMessage:
     Enabled: true
     Color: "#000000"
     Author:
-      ImageUrl: "%embedavatarurl%&cache=%date%"
+      ImageUrl: "%embedavatarurl%"
       Name: "%deathmessage%"
       Url: ""
     ThumbnailUrl: ""
@@ -321,7 +350,7 @@ MinecraftPlayerAchievementMessage:
     Enabled: true
     Color: "#ffd700"
     Author:
-      ImageUrl: "%embedavatarurl%&cache=%date%"
+      ImageUrl: "%embedavatarurl%"
       Name: "%username% has made the advancement %achievement%!"
       Url: ""
     ThumbnailUrl: ""
