@@ -158,7 +158,7 @@ DiscordChatChannelAllowedMentions: [user, channel, emote]
 DiscordChatChannelEmojiBehavior: "name"
 DiscordChatChannelEmoteBehavior: "name"
 DiscordChatChannelPrefixRequiredToProcessMessage: ""
-DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["Developer", "Owner", "Admin", "Moderator"]
+DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["Developers", "Owner", "Admins", "Moderators"]
 DiscordChatChannelBroadcastDiscordMessagesToConsole: true
 DiscordChatChannelRequireLinkedAccount: true
 DiscordChatChannelBlockBots: false
@@ -209,7 +209,7 @@ DiscordConsoleChannelAllowPluginUpload: false
 DiscordChatChannelConsoleCommandEnabled: true
 DiscordChatChannelConsoleCommandNotifyErrors: true
 DiscordChatChannelConsoleCommandPrefix: "!c"
-DiscordChatChannelConsoleCommandRolesAllowed: ["Developer"]
+DiscordChatChannelConsoleCommandRolesAllowed: ["Developers", "Admins"]
 DiscordChatChannelConsoleCommandWhitelist: ["kill","clear","effect","op","deop","effect","give","god","gamemode"]
 DiscordChatChannelConsoleCommandWhitelistBypassRoles: []
 DiscordChatChannelConsoleCommandWhitelistActsAsBlacklist: true
