@@ -1,4 +1,3 @@
-# Edited by: FalloutStudios
 # Discord -> Minecraft message
 #
 # DiscordToMinecraftChatMessageFormat: the format used when sending messages from Discord to Minecraft
@@ -47,7 +46,7 @@
 # NOTE: The %reply% placeholder needs to be present in the format if you want the DiscordToMinecraftMessageReplyFormat to display in your message.
 #
 DiscordToMinecraftChatMessageFormat: "[<aqua>From Discord</aqua> | %toprolecolor%%toprolealias%<reset>] %name% > %message%"
-DiscordToMinecraftChatMessageFormatNoRole: "[<aqua>From Discord</aqua>] %name% > %message%"
+DiscordToMinecraftChatMessageFormatNoRole: "[<aqua>From Discord</aqua>] %username% > %message%"
 DiscordToMinecraftAllRolesSeparator: " | "
 DiscordToMinecraftMessageReplyFormat: " (replying to %name%)"
 
@@ -80,7 +79,7 @@ DiscordToMinecraftMessageReplyFormat: " (replying to %name%)"
 # PlaceholderAPI placeholders are also supported
 #
 MinecraftChatToDiscordMessageFormat: "**%primarygroup%** %displayname% > %message%"
-MinecraftChatToDiscordMessageFormatNoPrimaryGroup: "%displayname% > %message%"
+MinecraftChatToDiscordMessageFormatNoPrimaryGroup: "%luckperms_primary_group_name%%displayname% > %message%"
 
 # Chat channel plugin message
 # This is a special message that's only used when a supported chat channel plugin is hooked
