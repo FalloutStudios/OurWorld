@@ -253,16 +253,80 @@ ChannelTopicUpdaterRateInMinutes: 10
 # If you do not want any canned responses, set this to just {}
 # PlaceholderAPI placeholders are supported for the values
 #
-DiscordCannedResponses: {
-    "!help": "**OW bot commands**\n```yml\n!ip: Get Server's ip\n!verify: Guide for account linking\n!claims: Simple explanation about claims\n!tps: show server's tps\n!performace: Get server's performance informations\n!vip: Informations about VIP rank\n!timeout: Information about connection timeout\n!falseflags: Informations about anticheat```",
-    "!ip": "IP:\n```yml\nplay.ourmcworld.ml\n``` \n```yml\nOurMcWorldArchive.aternos.me:35529\n```",
-    "!verify": "**Verify you're a player**\n> Join the server and use the `/discord link` command to obtain your four-digit code *click to copy it*.\n> Message <@841956155190411284> and paste your code by itself.\n\n**Unlink Discord**\n> To unlink, simply join the server and enter the `/discord unlink` command.",
-    "!claims": "**How to claim land?**\nTo claim your land, use your golden shovel to right-click the top right and bottom left corners of your land.\nhttps://youtu.be/I3FLCFam5LI",
-    "!tps": "**Server TPS `%server_tps%`**\n```yml\n1m ago: %server_tps_1%\n```\n```yml\n5m ago: %server_tps_5%\n```\n```yml\n15min ago: %server_tps_15%\n```",
-    "!performance": "**Server Performace**\n```yml\nRAM used: %server_ram_used%/%server_ram_total%\n```\n```yml\nUptime: %server_uptime%\n```\n```yml\nTotal Entities: %server_total_entities%\n```\n```yml\nAlive Entities: %server_total_living_entities%\n```\n```yml\nTotal chunks: %server_total_chunks%\n```",
-    "!vip": "**About :vip:**\nVIP status provides no in-game advantage and does not exempt players from policy violations and punishments. To become a VIP, you must donate or win giveaways from the server. Donations do not have a set amount, and we will not force you to make a donation as this is an infringement of Mojang's EULA.\nFor donations: `paypal.me/ghextercortes`",
-    "!timeout": "**Connection TimeOut**\nConnection timeout, also known as KeepAlive timeout, is a common issue when dealing with high ping or an unstable internet connection. This can be remedied by connecting with a dynamic IP address, or DynIP.\n*Ask an admin to get the current DynIP*",
-    "!falseflags": "**Anticheat False Flags**\nWe're currently using an anticheat built by *Rammelkast*, a free and open source anticheat, because we don't have enough finances for server optimization and performance plugins. If you have any problems with it, please feel free to contact the developers as we do not have access to or make a contribution to the software.\n\n'https://github.com/Rammelkast/AntiCheatReloaded/' is the repository."}
+DiscordCannedResponses:
+  "!help": |-
+    **OW bot commands**
+    ```yml
+    !ip: Get Server's ip
+    !verify: Guide for account linking
+    !claims: Simple explanation about claims
+    !tps: show server's tps
+    !performace: Get server's performance informations
+    !vip: Informations about VIP rank
+    !timeout: Information about connection timeout
+    !falseflags: Informations about anticheat```
+
+  "!ip": |-
+    IP:
+    ```yml
+    play.ourmcworld.ml
+    ```
+    ```yml
+    OurMcWorldArchive.aternos.me:35529
+    ```
+  "!verify": |-
+    **Verify you're a player**
+    > Join the server and use the `/discord link` command to obtain your four-digit code *click to copy it*.
+    > Message <@841956155190411284> and paste your code by itself.
+
+    **Unlink Discord**
+    > To unlink, simply join the server and enter the `/discord unlink` command.
+  "!claims": |-
+    **How to claim land?**
+    To claim your land, use your golden shovel to right-click the top right and bottom left corners of your land.
+    https://youtu.be/I3FLCFam5LI
+  "!tps": |-
+    **Server TPS `%server_tps%`**
+    ```yml
+    1m ago: %server_tps_1%
+    ```
+    ```yml
+    5m ago: %server_tps_5%
+    ```
+    ```yml
+    15min ago: %server_tps_15%
+    ```
+  "!performance": |-
+    **Server Performace**
+    ```yml
+    RAM used: %server_ram_used%/%server_ram_total%
+    ```
+    ```yml
+    Uptime: %server_uptime%
+    ```
+    ```yml
+    Total Entities: %server_total_entities%
+    ```
+    ```yml
+    Alive Entities: %server_total_living_entities%
+    ```
+    ```yml
+    Total chunks: %server_total_chunks%
+    ```
+  "!vip": |-
+    **About :vip:**
+    VIP status provides no in-game advantage and does not exempt players from policy violations and punishments. To become a VIP, you must donate or win giveaways from the server. Donations do not have a set amount, and we will not force you to make a donation as this is an infringement of Mojang's EULA.
+    For donations: `paypal.me/ghextercortes`
+  "!timeout": |-
+    **Connection TimeOut**
+    Connection timeout, also known as KeepAlive timeout, is a common issue when dealing with high ping or an unstable internet connection. This can be remedied by connecting with a dynamic IP address, or DynIP.
+    *Ask an admin to get the current DynIP*
+  "!falseflags": |-
+    **Anticheat False Flags**
+    We're currently using two anticheats built by *Rammelkast*(AntiCheatReloaded) and *Olexorus*(Themis), AntiCheatReloaded a free and open source anticheat and Themis is free but proprietary, because we don't have enough finances for server optimization and performance plugins. If you have any problems with it, please feel free to contact the developers as we do not have access to or make a contribution to the software.
+
+    *AntiCheatReloaded*: https://github.com/Rammelkast/AntiCheatReloaded/
+    *Themis*: https://discord.gg/jRvxbZKZZF
 
 # Minecraft to Discord account linking
 # These are the options pertaining to how linking a Minecraft account to a Discord account functions
