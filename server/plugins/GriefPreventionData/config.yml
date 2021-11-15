@@ -107,8 +107,8 @@ GriefPrevention:
   LimitTreeGrowth: false
   PistonMovement: CLAIMS_ONLY
   PistonExplosionSound: true
-  FireSpreads: false
-  FireDestroys: false
+  FireSpreads: true
+  FireDestroys: true
   AdminsGetWhispers: true
   AdminsGetSignNotifications: true
   SmartBan: true
