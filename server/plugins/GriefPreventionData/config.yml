@@ -101,7 +101,7 @@ GriefPrevention:
     PvPWorlds: false
     NonPvPWorlds: false
   BlockLandClaimExplosions: true
-  BlockSurfaceCreeperExplosions: true
+  BlockSurfaceCreeperExplosions: false
   BlockSurfaceOtherExplosions: false
   LimitSkyTrees: true
   LimitTreeGrowth: false
