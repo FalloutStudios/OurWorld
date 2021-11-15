@@ -29,7 +29,7 @@ worlds-is-blacklist: false
 disable-attack-cooldown:
   # This is to disable the attack cooldown
   enabled: true
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
   # What to set the attack speed to. Default for 1.9 is 4, at least 16 is needed for no cooldown.
   generic-attack-speed: 24
 
@@ -37,17 +37,17 @@ disable-player-collisions:
   # This is to disable player collisions
   # This is now compatible with scoreboard and tablist-editing plugins
   enabled: true
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
 
 disable-sword-sweep:
   # This is to disable the sword sweep attack
   # Particle effect is also now removed
   enabled: true
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
 
 disable-attack-sounds:
   enabled: false
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
   # The sounds that will be blocked by this module
   blocked-sounds:
     - "minecraft:entity.player.attack.strong"
@@ -60,7 +60,7 @@ disable-attack-sounds:
 disable-crafting:
   # Disable the crafting of specified items
   enabled: false
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
   # List of denied items
   denied: [shield]
   # Show the user a message if they try to craft a blacklisted item
@@ -71,7 +71,7 @@ disable-offhand:
   # Disable the usage of the offhand
   # Won't affect sword-blocking module
   enabled: false
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
   # Whether the following list allows items or blocks them
   whitelist: true
   # List of items that should be allowed/blocked
@@ -81,24 +81,24 @@ disable-offhand:
 old-brewing-stand:
   # Automatically refuels brewing stands
   enabled: true
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
 
 no-lapis-enchantments:
   # Automatically adds lapis to enchantment tables upon opening
   enabled: false
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
   # Whether to only allow this for players with oldcombatmechanics.nolapis permission
   usePermission: false
 
 disable-elytra:
   # Do not allow players to wear elytra
   enabled: true
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
 
 disable-enderpearl-cooldown:
   # Disables enderpearl cooldown
   enabled: true
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
   # The cooldown, in seconds
   cooldown: 0
   # Show the user a message if they try to use an enderpearl and the cooldown has not expired yet
@@ -110,7 +110,7 @@ old-tool-damage:
   # IMPORTANT: Also enable disable-sword-sweep module or sweeps will have the damage value of the weapon in hand
   # NOTE: this will modify the damage, however on the item tooltip it will still show the 1.9+ damage
   enabled: true
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
   # Damage values shown in 1.9 representation (actual damage)
   # In 1.8 the damage tooltip value would be added to 1 'base damage', yielding the values below
   damages:
@@ -153,7 +153,7 @@ old-tool-damage:
 sword-blocking:
   # This is to allow players to block with swords again, by getting a shield while they hold right click with a sword
   enabled: false
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
   # How often, in ticks, OCM should check if the player is still blocking with a shield, and remove it if not
   # If this is too fast the player will have their shield disappear before they're able to block again causing a slight delay
   # If this is too slow players will have a shield in their hand well after they've stopped blocking
@@ -181,7 +181,7 @@ old-golden-apples:
   # This is to change the behaviour / crafting of golden apples to how it was in pre-1.9
   # WARNING: If on 1.12 or above and you disable this module you must reload the server for the recipe to disappear
   enabled: true
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
   # Cooldown between eating the apples, in seconds
   cooldown:
     # The cooldown for normal golden apples
@@ -242,7 +242,7 @@ old-golden-apples:
 old-fishing-knockback:
   # This is to make the knockback of players when they get hit by a fishing bobber the same as it was in pre-1.9
   enabled: true
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
   # This makes OCM check if other plugins are stopping the rod damage and follow their choice
   # Set to false to always have rod damage
   checkCancelled: false
@@ -264,13 +264,13 @@ fishing-rod-velocity:
   # This is due to both gravity and initial launch speed
   # Set to true to revert back to the old calculations and gravity
   enabled: true
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
 
 projectile-knockback:
   # This adds knockback and/or damage to players when they get hit by snowballs, eggs & enderpearls
   # This has been a Bukkit bug for so long people thought it was vanilla when it was recently patched
   enabled: true
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
   # This is the damage done by each projectile
   damage:
     snowball: 0.0001
@@ -289,7 +289,7 @@ old-player-knockback:
   #
   # Minigame servers use higher vertical knockback and lower horizontal knockback, exact values are unknown.
   enabled: true
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
   # Horizontal knockback is reduced by 40% for every successful attack by the player, with no limit
   # Increase to make clicking more important, decrease to make it less important
   knockback-horizontal: 0.4
@@ -314,7 +314,7 @@ old-player-regen:
   # This is to make players' regeneration act mostly like it did in pre-1.9
   # Based on https://minecraft.gamepedia.com/Hunger?oldid=948685
   enabled: true
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
   # How often a player should regenerate health, in milliseconds (In 1.8: 4 seconds)
   # The foodTickerTimer might not be perfectly accurate so we give it ~10ms of leeway
   interval: 3990
@@ -329,12 +329,12 @@ old-armour-strength:
   # This is to make armour calculations like in 1.8
   # Based on this: https://minecraft.gamepedia.com/index.php?title=Armor&oldid=909187
   enabled: true
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
 
 old-armour-durability:
   # This makes armour take a constant amount of durability damage (except for explosions)
   enabled: true
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
   # By how much to reduce durability every attack. 1.8 default is 1
   reduction: 1
 
@@ -342,7 +342,7 @@ disable-projectile-randomness:
   # This is to remove projectile randomness while firing arrows with a bow
   # This is actually a very old feature and has been in the game for quite some time
   enabled: false
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
   # This is the threshold between projectiles' (X,Z) values before they're considered the same and straightened
   # This value is only useful for multishot. The default of 0.1 works at all but extremely shallow angles,
   # where arrows end up bunched together. Set to 1 if you want multishots to all follow the same path.
@@ -353,12 +353,12 @@ disable-bow-boost:
   # while running with a punch II arrow from their bow
   # This module simply stops them from hitting themselves with arrows entirely
   enabled: false
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
 
 old-potion-effects:
   # This is to restore the 1.8 potion effects and duration
   enabled: true
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
 
   ### DURATION: (in seconds)
   potion-durations:
@@ -494,7 +494,7 @@ old-potion-effects:
 chorus-fruit:
   # This makes the chorus fruit behaviour configurable
   enabled: false
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
   # The maximum distance the fruit can teleport the player. This a PER AXIS value, so this outlines a cube with
   # 2 * max-teleportation-distance as the side length
   # Vanilla default is 8.
@@ -515,14 +515,14 @@ chorus-fruit:
 old-burn-delay:
   # This makes it so entities will immediately start to burn when entering fire
   enabled: false
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
   # How long, in ticks, entities should be on fire for after not being in direct contact anymore
   fire-ticks: 120
 
 attack-frequency:
   # Allows changing the player invulnerability between hits
   enabled: true
-  worlds: ['PvPArena']
+  worlds: ['PvPArena','world_nether']
   # The hit delay to apply. Default for 1.9+ is 20 ticks (1 second)
   playerDelay: 18
   mobDelay: 16
