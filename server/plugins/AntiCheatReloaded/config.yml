@@ -21,7 +21,7 @@ system:
   # Should AntiCheatReloaded log to file?
   log-to-file: true
   # Should AntiCheatReloaded display extra debug information when starting?
-  verbose-startup: false
+  verbose-startup: true
   # If silent mode is on, players will not be stopped when they try to hack, and AntiCheatReloaded will do everything possible to keep them unaware of their rising hack level.
   # However, alerts will still be sent to console and to admins online, and events will still take place.
   silent-mode: false
