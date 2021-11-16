@@ -289,43 +289,36 @@ world-settings:
           validatenearbypoi: -1
     anti-xray:
       enabled: true
-      engine-mode: 2
+      engine-mode: 1
       chunk-edge-mode: 2
-      max-chunk-section-index: 2
-      max-block-height: 48
+      max-chunk-section-index: 3
+      max-block-height: 64
       update-radius: 2
       lava-obscures: false
       use-permission: false
       hidden-blocks:
-      - copper_ore
-      - deepslate_copper_ore
-      - diamond_ore
-      - deepslate_diamond_ore
-      - emerald_ore
-      - deepslate_emerald_ore
-      - gold_ore
-      - deepslate_gold_ore
-      - iron_ore
-      - deepslate_iron_ore
-      - lapis_ore
-      - deepslate_lapis_ore
-      - mossy_cobblestone
-      - redstone_ore
-      - deepslate_redstone_ore
+        # There's no chance to hide dungeon chests but buried treasures will be hidden.
+        - chest
+        - coal_ore
+        - deepslate_coal_ore
+        - copper_ore
+        - deepslate_copper_ore
+        - diamond_ore
+        - deepslate_diamond_ore
+        - emerald_ore
+        - deepslate_emerald_ore
+        - gold_ore
+        - deepslate_gold_ore
+        - iron_ore
+        - deepslate_iron_ore
+        - lapis_ore
+        - deepslate_lapis_ore
+        - redstone_ore
+        - deepslate_redstone_ore
       replacement-blocks:
-      - amethyst_block
-      - andesite
-      - budding_amethyst
-      - calcite
-      - deepslate
-      - diorite
-      - dirt
-      - granite
-      - gravel
-      - oak_planks
-      - smooth_basalt
-      - stone
-      - tuff
+        - stone
+        - oak_planks
+        - deepslate
     viewdistances:
       no-tick-view-distance: 6
     unsupported-settings:
