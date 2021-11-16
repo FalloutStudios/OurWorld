@@ -336,21 +336,21 @@ world-settings:
       max-chunk-section-index: 7
       max-block-height: 128
       hidden-blocks:
-      - ancient_debris
-      - bone_block
-      - glowstone
-      - magma_block
-      - nether_bricks
-      - nether_gold_ore
-      - nether_quartz_ore
-      - polished_blackstone_bricks
+        - ancient_debris
+        - bone_block
+        - glowstone
+        - magma_block
+        - nether_bricks
+        - nether_gold_ore
+        - nether_quartz_ore
+        - polished_blackstone_bricks
       replacement-blocks:
-      - basalt
-      - blackstone
-      - gravel
-      - netherrack
-      - soul_sand
-      - soul_soil
+        - basalt
+        - blackstone
+        - gravel
+        - netherrack
+        - soul_sand
+        - soul_soil
   world_the_end:
     anti-xray:
       enabled: false
