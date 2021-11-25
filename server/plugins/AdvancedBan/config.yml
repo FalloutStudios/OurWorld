@@ -105,7 +105,7 @@ UUID-Fetcher:
 # Variables: %PLAYER%, %REASON%, %COUNT%
 WarnActions:
   3: "kick %PLAYER% 3rd warning! %REASON%"
-  4: "mute %PLAYER% %COUNT%th warning! %REASON%"
+  4: "tempmute %PLAYER% 1h %COUNT%th warning! %REASON%"
   6: "tempban %PLAYER% 1m %COUNT%th warning! %REASON%"
   7: "tempban %PLAYER% 5m %COUNT%th warning! %REASON%"
   8: "tempban %PLAYER% 1h %COUNT%th warning! %REASON%"
