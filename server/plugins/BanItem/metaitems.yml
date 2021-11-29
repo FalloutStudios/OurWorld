@@ -1,5 +1,3 @@
-# Edited by: FalloutStudios
-# +———————————————————————————————————————————————————+ #
 # |——————————     BANITEM CONFIGURATION     ——————————| #
 # |——————————————————      v3.0      —————————————————| #
 # +———————————————————————————————————————————————————+ #
@@ -12,14 +10,13 @@
 # I highly suggest you to NOT modify this file manually, it may broke the item.
 # Use the /bi mi command instead.
 
-Apple:
+CARVED_BITCH:
   ==: org.bukkit.inventory.ItemStack
-  v: 2586
-  type: APPLE
-  amount: 3
+  v: 2730
+  type: CARVED_PUMPKIN
   meta:
     ==: ItemMeta
     meta-type: UNSPECIFIC
     enchants:
-      DAMAGE_ALL: 9999
-    internal: H4sIAAAAAAAA/+NiYOBg4HIuLS7Jz/VLzE1l4FZyz09RcCwoyElVYgAAlOmckB4AAAA=
+      BINDING_CURSE: 1
+    repair-cost: 1
