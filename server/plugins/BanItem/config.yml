@@ -1,7 +1,6 @@
-# Edited by: FalloutStudios
 # +———————————————————————————————————————————————————+ #
 # |——————————     BANITEM CONFIGURATION     ——————————| #
-# |——————————————————      v3.1      —————————————————| #
+# |——————————————————      v3.2      —————————————————| #
 # +———————————————————————————————————————————————————+ #
 # |                   Documentation:                  | #
 # |             https://banitem.andross.fr/           | #
@@ -57,18 +56,46 @@ particle:
 blacklist:
   world:
     barrier:
-      hold: '&cYou can not hold this damn barrier!'
-      place: '&cYou can not place barrier blocks!'
+      '*': '&cYou can not use barrier blocks!'
     debug_stick:
-      hold: '&cYou can not hold this!'
-      interact: '&cYou can not use debug sticks lol'
+      '*': '&cYou can not use debug sticks!'
     bedrock:
-      hold: '&cYou can not hold this.'
-      place: '&cYou can not place bedrocks.'
-      break: '&cWTH that''s illegal'
+      '*': '&cWTH that''s illegal!!!'
     command_block:
-      break: '&cWait that''s illegal'
-      hold: '&cWait that''s illegal! Why you have command block?'
+      '*': '&cWait that''s illegal! Why you have command block? sussy'
     end_portal_frame:
-      hold: '&cThat''s illegal bitch'
-      place: '&cYou can not make new end portal!'
+      '*': '&cIllegal!'
+    light:
+      '*': '&cIllegal!'
+    CARVED_BITCH:
+      '*': '&cNo carved pumpkin with curse of binding breh sus'
+  world_nether:
+    barrier:
+      '*': '&cYou can not use barrier blocks!'
+    debug_stick:
+      '*': '&cYou can not use debug sticks!'
+    bedrock:
+      '*': '&cWTH that''s illegal!!!'
+    command_block:
+      '*': '&cWait that''s illegal! Why you have command block? sussy'
+    end_portal_frame:
+      '*': '&cIllegal!'
+    light:
+      '*': '&cIllegal!'
+    CARVED_BITCH:
+      '*': '&cNo carved pumpkin with curse of binding breh sus'
+  world_the_end:
+    barrier:
+      '*': '&cYou can not use barrier blocks!'
+    debug_stick:
+      '*': '&cYou can not use debug sticks!'
+    bedrock:
+      '*': '&cWTH that''s illegal!!!'
+    command_block:
+      '*': '&cWait that''s illegal! Why you have command block? sussy'
+    end_portal_frame:
+      '*': '&cIllegal!'
+    light:
+      '*': '&cIllegal!'
+    CARVED_BITCH:
+      '*': '&cNo carved pumpkin with curse of binding breh sus'
