@@ -1,7 +1,8 @@
 # Edited by: FalloutStudios
 ALERT_PREFIX: '&c&lSUS &b&lAntiCheat &8> &7'
-KICK_REASON: '&c&lSUS &b&lAntiCheat &8> &7Kicked for being sus. If this is a false
-  flag just ignore'
+KICK_REASON: |- 
+  &c&lSUS &b&lAntiCheat &8> &7Kicked for being sus.
+  If this is a false flag just ignore'
 WARNING:
 - '&c&lSUS &b&lAntiCheat &8>&7 You have been flagged for using cheats.'
 - '&c&lSUS &b&lAntiCheat &8>&7 If is a false flag just ignore.'
