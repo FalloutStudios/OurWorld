@@ -42,7 +42,7 @@ Ipban:
   - '&7Unban application in Discord'
   - "&b&lDiscord &r&7> &ahttps://discord.gg/VwrC2Zcc3e"
   Notification:
-  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&c&o%NAME% &7got IP banned by &e&o%OPERATOR%"
   - "&7For the reason &o%REASON%"
   IpNotCashed: "&cThere is no saved IP for %NAME%!"
 
@@ -59,7 +59,7 @@ Tempban:
   - '&7Unban application in Discord'
   - "&b&lDiscord &r&7> &ahttps://discord.gg/VwrC2Zcc3e"
   Notification:
-  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&c&o%NAME% &7got temporarily banned by &e&o%OPERATOR%"
   - "&7For the reason &o%REASON%"
   - "&7&oThis player got banned for &e&o%DURATION%"
 
@@ -76,7 +76,7 @@ Tempipban:
   - '&7Unban application in Discord'
   - "&b&lDiscord &r&7> &ahttps://discord.gg/VwrC2Zcc3e"
   Notification:
-  - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
+  - "&c&o%NAME% &7got temporarily IP banned by &e&o%OPERATOR%"
   - "&7For the reason &o%REASON%"
   - "&7&oThis player got banned for &e&o%DURATION%"
 
@@ -102,7 +102,7 @@ Tempmute:
   Notification:
   - "&c&o%NAME% &7got muted by &e&o%OPERATOR%"
   - "&7For the reason &o%REASON%"
-  - "&7&oThis player got muted for &e&o%DURATION%"
+  - "&7&oThis player got temporarily muted for &e&o%DURATION%"
 
 Warn:
   Usage: "&cUsage &7> &7&o/warn (-s) [Name] [Reason/@Layout]"
