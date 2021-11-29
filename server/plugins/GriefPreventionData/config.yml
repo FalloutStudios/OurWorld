@@ -23,9 +23,9 @@ GriefPrevention:
     ProtectHorses: true
     ProtectDonkeys: true
     ProtectLlamas: true
-    InitialBlocks: 100
+    InitialBlocks: 2000
     Claim Blocks Accrued Per Hour:
-      Default: 100
+      Default: 1000
     Max Accrued Claim Blocks:
       Default: 80000
     Accrued Idle Threshold: 0
