@@ -216,36 +216,7 @@ MinecraftPlayerJoinMessage:
       Text: ""
       IconUrl: ""
     Timestamp: false
-#
-# Available placeholders for PlayerFirstJoin messages:
-# %message%:        join message as seen in-game
-#
-MinecraftPlayerFirstJoinMessage: 
-  Enabled: true
-  Webhook:
-    Enable: false
-    AvatarUrl: "%botavatarurl%"
-    Name: "%botname%"
-  Content: ""
-  Embed:
-    Enabled: true
-    Color: "#ffd700"
-    Author:
-      ImageUrl: "%embedavatarurl%&cache=%date%"
-      Name: "%username% joined the server for the first time"
-      Url: ""
-    ThumbnailUrl: ""
-    Title:
-      Text: ""
-      Url: ""
-    Description: ""
-    Fields: []
-    ImageUrl: ""
-    Footer:
-      Text: ""
-      IconUrl: ""
-    Timestamp: false
-#
+
 # Available placeholders for PlayerLeave messages:
 # %message%:        leave message as seen in-game
 #
