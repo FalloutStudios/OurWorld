@@ -104,7 +104,7 @@ MaximumAttemptsForSystemDNSBeforeUsingFallbackDNS: 3
 TimestampFormat: EEE, d. MMM yyyy HH:mm:ss z
 DateFormat: yyyy-MM-dd
 # https://github.com/DiscordSRV/DiscordSRV/wiki/config#Timezone
-Timezone: UTC
+Timezone: default
 
 # Plugin hooks
 # You must restart your server after changing these options
@@ -127,7 +127,7 @@ UseModernPaperChatEvent: false
 # DiscordGameStatus: Text to display. Can be a single value e.g. "Minecraft", or multiple values e.g. ["Minecraft", "yourip.changeme.com"]
 # StatusUpdateRateInMinutes: How frequently to cycle the status
 DiscordGameStatus: ["Minecraft", "OurWorld", "play.ourmcworld.ml"]
-StatusUpdateRateInMinutes: 1
+StatusUpdateRateInMinutes: 2
 
 # Chat channel information
 # The chat channel is the text channel that all messages in-game will be sent to and all messages sent
@@ -265,7 +265,6 @@ DiscordCannedResponses:
     !vip: Informations about VIP rank
     !timeout: Information about connection timeout
     !falseflags: Informations about anticheat```
-
   "!ip": |-
     IP:
     ```yml
@@ -278,7 +277,6 @@ DiscordCannedResponses:
     **Verify you're a player**
     > Join the server and use the `/discord link` command to obtain your four-digit code *click to copy it*.
     > Message <@841956155190411284> and paste your code by itself.
-
     **Unlink Discord**
     > To unlink, simply join the server and enter the `/discord unlink` command.
   "!claims": |-
@@ -324,7 +322,6 @@ DiscordCannedResponses:
   "!falseflags": |-
     **Anticheat False Flags**
     We're currently using two anticheats built by *Rammelkast*(AntiCheatReloaded) and *Olexorus*(Themis), AntiCheatReloaded a free and open source anticheat and Themis is free but proprietary, because we don't have enough finances for server optimization and performance plugins. If you have any problems with it, please feel free to contact the developers as we do not have access to or make a contribution to the software.
-
     *AntiCheatReloaded*: https://github.com/Rammelkast/AntiCheatReloaded/
     *Themis*: https://discord.gg/jRvxbZKZZF
 
@@ -345,9 +342,9 @@ DiscordCannedResponses:
 # MinecraftDiscordAccountLinkedRoleNameToAddUserTo: the name of a discord role to add a discord user to when they link their account
 # MinecraftDiscordAccountLinkedAllowRelinkBySendingANewCode: allows sending a new code to the bot to unlink and relink with the new code
 #
-MinecraftDiscordAccountLinkedConsoleCommands: [""]
-MinecraftDiscordAccountUnlinkedConsoleCommands: [""]
-MinecraftDiscordAccountLinkedRoleNameToAddUserTo: "896705681086877726"
+MinecraftDiscordAccountLinkedConsoleCommands: ["", "", ""]
+MinecraftDiscordAccountUnlinkedConsoleCommands: ["", "", ""]
+MinecraftDiscordAccountLinkedRoleNameToAddUserTo: "Linked"
 MinecraftDiscordAccountLinkedAllowRelinkBySendingANewCode: false
 
 # Server watchdog
