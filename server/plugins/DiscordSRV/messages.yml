@@ -202,7 +202,7 @@ MinecraftPlayerJoinMessage:
     Enabled: true
     Color: "#00ff00"
     Author:
-      ImageUrl: "%embedavatarurl%&cache=%date%"
+      ImageUrl: "%embedavatarurl%"
       Name: "%username% joined the server"
       Url: ""
     ThumbnailUrl: ""
