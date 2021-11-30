@@ -187,7 +187,7 @@ DiscordChatChannelRoleAliases: {"Developer": "Dev"}
 DiscordConsoleChannelLogRefreshRateInSeconds: 5
 DiscordConsoleChannelUsageLog: "Console-%date%.log"
 DiscordConsoleChannelBlacklistActsAsWhitelist: false
-DiscordConsoleChannelBlacklistedCommands: ["kill","clear","effect","op","deop","effect","give","god","gamemode"]
+DiscordConsoleChannelBlacklistedCommands: ["kill","clear","effect","give","god"]
 DiscordConsoleChannelFilters: {".*(?i)async chat thread.*": "", ".*There are \\d+ of a max of \\d+ players online.*": ""}
 DiscordConsoleChannelLevels: [info, warn, error]
 DiscordConsoleChannelAllowPluginUpload: false
@@ -210,7 +210,7 @@ DiscordChatChannelConsoleCommandEnabled: true
 DiscordChatChannelConsoleCommandNotifyErrors: true
 DiscordChatChannelConsoleCommandPrefix: "!c"
 DiscordChatChannelConsoleCommandRolesAllowed: ["Developers", "Admins"]
-DiscordChatChannelConsoleCommandWhitelist: ["kill","clear","effect","op","deop","effect","give","god","gamemode"]
+DiscordChatChannelConsoleCommandWhitelist: ["kill","clear","effect","give","god"]
 DiscordChatChannelConsoleCommandWhitelistBypassRoles: []
 DiscordChatChannelConsoleCommandWhitelistActsAsBlacklist: true
 DiscordChatChannelConsoleCommandExpiration: 0
