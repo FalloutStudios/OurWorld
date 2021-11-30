@@ -134,10 +134,10 @@ Security:
 
   # Prohibits a user with the same ip address from registering many times.
   address-limiter:
-    enable: false
+    enable: true
 
     # Sets maximum number of login/registers by an ip address.
-    limit: 3
+    limit: 4
 
     # List of ips that pass the ips limit (useful for servers with Geyser).
     bypass:
