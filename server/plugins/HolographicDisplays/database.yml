@@ -83,7 +83,7 @@ pvprules:
   - '&a3. &fDon''t use any exploits or'
   - illegal resource.
 rules:
-  location: world, 214.450, 76.000, 854.205
+  location: world, 214.450, 78.000, 854.205
   lines:
   - '&a====== &b&lSERVER RULES &a======'
   - '&a1. &rAdvertising is not allowed.'
