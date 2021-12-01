@@ -50,9 +50,9 @@ Message:
     - '&7'
     - '&7Unban application in Discord'
     - "&b&lDiscord &r&7> &ahttps://discord.gg/VwrC2Zcc3e"
-  ClassicBannedLaout:
+  ClassicBannedLayout:
     - '%REASON%'
-  ClassicKickedLaout:
+  ClassicKickedLayout:
     - '%REASON%'
 
 # You would use this time-layout for example like this: "/tempban Leoko #ExampleLayout Hacking in FFA"
