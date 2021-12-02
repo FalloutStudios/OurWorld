@@ -1,4 +1,3 @@
-# Edited by: FalloutStudios
 # This is the main configuration file for Bukkit.
 # As you can see, there's actually not that much to configure without any plugins.
 # For a reference for any variable inside this file, check out the Bukkit Wiki at
@@ -36,7 +35,7 @@ chunk-gc:
 ticks-per:
   water-underground-creature-spawns: 1
   animal-spawns: 400
-  monster-spawns: 5
+  monster-spawns: 4
   water-spawns: 11
   water-ambient-spawns: 21
   ambient-spawns: 31
