@@ -23,7 +23,7 @@ settings:
   moved-too-quickly-multiplier: 10.0
   log-villager-deaths: true
   timeout-time: 60
-  restart-on-crash: true
+  restart-on-crash: false
   restart-script: ./start.sh
   netty-threads: 4
   attribute:
@@ -92,13 +92,13 @@ world-settings:
     trident-despawn-rate: 1200
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
-    nerf-spawner-mobs: false
-    mob-spawn-range: 8
+    nerf-spawner-mobs: true
+    mob-spawn-range: 3
     end-portal-sound-radius: 0
     max-entity-collisions: 8
     merge-radius:
-      exp: 3.0
-      item: 2.5
+      exp: 4.0
+      item: 6.0
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -127,7 +127,7 @@ world-settings:
       villagers-work-immunity-after: 100
       villagers-work-immunity-for: 20
       villagers-active-for-panic: true
-      tick-inactive-villagers: true
+      tick-inactive-villagers: false
       wake-up-inactive:
         animals-max-per-tick: 4
         animals-every: 1200
