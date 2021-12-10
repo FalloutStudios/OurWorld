@@ -79,7 +79,7 @@ DiscordToMinecraftMessageReplyFormat: "[<aqua>From Discord</aqua> <gray>Replied 
 # PlaceholderAPI placeholders are also supported
 #
 MinecraftChatToDiscordMessageFormat: "**%primarygroup%** %displayname% > %message%"
-MinecraftChatToDiscordMessageFormatNoPrimaryGroup: "%displayname% > %message%"
+MinecraftChatToDiscordMessageFormatNoPrimaryGroup: "%luckperms_primary_group_name%%displayname% > %message%"
 
 # Chat channel plugin message
 # This is a special message that's only used when a supported chat channel plugin is hooked
