@@ -209,7 +209,7 @@ DiscordConsoleChannelAllowPluginUpload: false
 DiscordChatChannelConsoleCommandEnabled: true
 DiscordChatChannelConsoleCommandNotifyErrors: true
 DiscordChatChannelConsoleCommandPrefix: "!c"
-DiscordChatChannelConsoleCommandRolesAllowed: ["Developers", "Admins"]
+DiscordChatChannelConsoleCommandRolesAllowed: ["Admins"]
 DiscordChatChannelConsoleCommandWhitelist: ["kill","clear","effect","give","god"]
 DiscordChatChannelConsoleCommandWhitelistBypassRoles: []
 DiscordChatChannelConsoleCommandWhitelistActsAsBlacklist: true
