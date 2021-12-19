@@ -367,7 +367,7 @@ fastprojectile:
 # Checks if the player drops items too fast
 itemspam:
   # Should this check be enabled?
-  enabled: true
+  enabled: false
   # The number of item drops we should wait before checking if the player has used item spam
   dropsToWait: 10
   # The minimum time in milliseconds it should have taken for the player to drop items 'dropsToWait' times
