@@ -346,6 +346,6 @@ Resources:
       commands: [twitter]
       description: Command to configure twitter.
     unregister:
-      enabled: false
+      enabled: true
       commands: [unregister]
       description: Command to unregister.
