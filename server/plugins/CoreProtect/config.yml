@@ -85,13 +85,13 @@ sign-text: true
 buckets: true
 
 # Logs natural tree leaf decay.
-leaf-decay: true
+leaf-decay: false
 
 # Logs tree growth. Trees are linked to the player who planted the sappling.
-tree-growth: true
+tree-growth: false
 
 # Logs mushroom growth.
-mushroom-growth: true
+mushroom-growth: false
 
 # Logs natural vine growth.
 vine-growth: true
@@ -131,16 +131,16 @@ hopper-transactions: true
 player-interactions: true
 
 # Logs messages that players send in the chat.
-player-messages: true
+player-messages: false
 
 # Logs all commands used by players.
-player-commands: true
+player-commands: false
 
 # Logs the logins and logouts of players.
-player-sessions: true
+player-sessions: false
 
 # Logs when a player changes their Minecraft username.
-username-changes: true
+username-changes: false
 
 # Logs changes made via the plugin "WorldEdit" if it's in use on your server.
 worldedit: true
