@@ -50,7 +50,11 @@ footer:
 - "&7Discord: &bdiscord.gg/V5jC5PV5Pw"
 - ""
 - "&7Players Online: &b%server_online%"
-- "&7TPS: &b%server_tps%"
+- "&7TPS: &b%tps%"
+- "&7PING: &b%ping%"
+- ""
+- "&7Memmory Usage"
+- "%memory_bar%"
 - ""
 - "&b============================"
 
