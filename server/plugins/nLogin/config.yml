@@ -284,7 +284,7 @@ Resources:
 
       # Time for player information to be hidden.
       # This value must be done in ticks (20 ticks equals 1 second).
-      restore-player-stats-delay: 7
+      restore-player-stats-delay: 20
 
       # In-game advertisements (only admins).
       advertising: false
@@ -297,8 +297,7 @@ Resources:
 
       # Insert here the list of commands allowed to be used before any type of authentication.
       # To change the type of command allowed, place the command with bar in the list below.
-      allowed-commands-before-login:
-        - "/loginstaff"
+      allowed-commands-before-login: []
 
   # List of nLogin commands
   commands:
