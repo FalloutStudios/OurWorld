@@ -13,11 +13,11 @@ enable-fake-players: true
 # If enabled, the gray color will not appear to other players when the player's game mode is spectator.
 # The gray color will only show for the spectator player.
 # Requires ProtocolLib!
-remove-gray-color-from-tab-in-spectator: false
+remove-gray-color-from-tab-in-spectator: true
 
 # true - does not count vanished players in %online-players% placeholder.
 # Requires Essentials, SuperVanish, PremiumVanish or CMI plugin!
-ignore-vanished-players-in-online-players: false
+ignore-vanished-players-in-online-players: true
 
 # true - count vanished staff in %staff-online% placeholder,
 # but they need to have "tablist.onlinestaff" permission set.
@@ -107,7 +107,7 @@ placeholder-format:
     char: '|'
     colors:
       used: '&c'
-      free: '&a'
+      free: '&7'
 
       # When the server memory less than 80
       allocation: '&e'
