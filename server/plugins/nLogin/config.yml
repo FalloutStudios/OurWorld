@@ -303,7 +303,7 @@ Resources:
   commands:
     changepassword:
       enabled: true
-      commands: [changepassword, changepass]
+      commands: [changepassword]
       description: Command to change the password.
     checkprofile:
       enabled: false
