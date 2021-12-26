@@ -314,8 +314,8 @@ Resources:
       commands: [cracked]
       description: Command to mark your account as cracked.
     discord:
-      enabled: false
-      commands: [discord]
+      enabled: true
+      commands: [nlogindiscord]
       description: Command to configure discord.
     dupeip:
       enabled: true
