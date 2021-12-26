@@ -157,7 +157,7 @@ Security:
 
   # This is the maximum number of attempts a player can make to authenticate.
   # If you use the value 1, the player will be kicked immediately.
-  max-login-tries: 3
+  max-login-tries: 1
 
   # Sends the message that the server is concerned about the player's privacy.
   warn-privacy-status: true
