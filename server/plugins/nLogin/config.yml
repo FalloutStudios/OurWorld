@@ -338,7 +338,7 @@ Resources:
       commands: [register]
       description: Command to register an account.
     squestion:
-      enabled: true
+      enabled: false
       commands: [securityquestion]
       description: Command to configure security questions.
     twitter:
