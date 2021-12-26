@@ -45,7 +45,7 @@
 #
 # NOTE: The %reply% placeholder needs to be present in the format if you want the DiscordToMinecraftMessageReplyFormat to display in your message.
 #
-DiscordToMinecraftChatMessageFormat: "[<aqua>From Discord</aqua> | %toprolecolor%%toprolealias%<reset>] %name% > %message%"
+DiscordToMinecraftChatMessageFormat: "[<aqua>From Discord</aqua>] %username% > %message%"
 DiscordToMinecraftChatMessageFormatNoRole: "[<aqua>From Discord</aqua>] %username% > %message%"
 DiscordToMinecraftAllRolesSeparator: " | "
 DiscordToMinecraftMessageReplyFormat: "[<aqua>From Discord</aqua> <gray>Replied <gold>⇾</gold> %username%</gray>] %name% > %message%"
