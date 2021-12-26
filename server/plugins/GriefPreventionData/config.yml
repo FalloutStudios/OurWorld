@@ -69,8 +69,8 @@ GriefPrevention:
     BanOffenders: false
     BanMessage: Banned for spam.
     AllowedIpAddresses: 1.2.3.4; 5.6.7.8
-    DeathMessageCooldownSeconds: 3
-    Logout Message Delay In Seconds: 0
+    DeathMessageCooldownSeconds: -1
+    Logout Message Delay In Seconds: -1
   PvP:
     RulesEnabledInWorld:
       world: true
