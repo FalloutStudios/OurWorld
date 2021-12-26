@@ -54,9 +54,8 @@ footer:
 - "&7PING: &b%ping%"
 - ""
 - "&7Memmory Usage"
-- "%memory_bar%"
 - ""
-- "&b============================"
+- "%memory_bar%"
 
 # Defines per world tablist for different worlds
 # You can separate worlds with ", " to show tablist in that worlds

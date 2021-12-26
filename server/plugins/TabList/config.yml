@@ -106,14 +106,14 @@ placeholder-format:
   memory-bar:
     char: '|'
     colors:
-      used: '&c'
+      used: '&b'
       free: '&7'
 
       # When the server memory less than 80
-      allocation: '&e'
+      allocation: '&a'
 
       # When the server memory is on critical level (less than 40) and some resource need memory to run.
-      released: '&6'
+      released: '&d'
     size: 80
 
 # Enable changing of prefix & suffix in player list?
