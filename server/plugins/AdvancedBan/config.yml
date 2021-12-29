@@ -66,10 +66,7 @@ MuteCommands:
 # These players will not be able to get punished in any way
 # this also works if the player is offline
 # Use Vault to make exempt permissions also work for offline players
-ExemptPlayers:
-- 'GhexterCortes'
-- 'BetaHiddenPlayer'
-- 'HiddenPlayer'
+ExemptPlayers: []
 
 # The date-format which will be used for the %DATE% variable
 DateFormat: "dd.MM.yyyy-HH:mm"
