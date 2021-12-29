@@ -22,7 +22,6 @@ What's not included:
 + Banned players data
 + Logs
 + Operators
-+ WorldGuard data
 + Passwords or Secret keys
 + Plugin `.jar` files
 
