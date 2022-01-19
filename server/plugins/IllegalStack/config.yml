@@ -97,7 +97,7 @@ Exploits:
     BlockLoopedDroppers: false
 UserRequested:
   Obscure:
-    BlockBadItemsFromCreativeTab: true
+    BlockBadItemsFromCreativeTab: false
     IgnoreAllShulkerPlaceChecks: false
     HackedShulker:
       DestroyInvalidShulkers: true
