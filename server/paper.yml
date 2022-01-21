@@ -122,7 +122,7 @@ world-settings:
     optimize-explosions: true
     fixed-chunk-inhabited-time: -1
     use-vanilla-world-scoreboard-name-coloring: false
-    remove-corrupt-tile-entities: false
+    remove-corrupt-tile-entities: true
     experience-merge-max-value: -1
     prevent-moving-into-unloaded-chunks: true
     count-all-mobs-for-spawning: false
@@ -138,35 +138,35 @@ world-settings:
     phantoms-do-not-spawn-on-creative-players: true
     phantoms-only-attack-insomniacs: true
     update-pathfinding-on-block-update: false
-    fix-wither-targeting-bug: false
+    fix-wither-targeting-bug: true
     map-item-frame-cursor-update-interval: 10
-    allow-player-cramming-damage: false
+    allow-player-cramming-damage: true
     entities-target-with-follow-range: false
     spawner-nerfed-mobs-should-jump: false
     armor-stands-tick: false
     mob-spawner-tick-rate: 2
     all-chunks-are-slime-chunks: false
     map-item-frame-cursor-limit: 128
-    zombies-target-turtle-eggs: true
+    zombies-target-turtle-eggs: false
     zombie-villager-infection-chance: -1.0
     per-player-mob-spawns: true
     light-queue-size: 20
-    auto-save-interval: 6000
+    auto-save-interval: 2400
     seed-based-feature-search: true
     seed-based-feature-search-loads-chunks: true
     water-over-lava-flow-speed: 5
-    grass-spread-tick-rate: 4
+    grass-spread-tick-rate: 5
     use-faster-eigencraft-redstone: true
     parrots-are-unaffected-by-player-movement: false
     fix-items-merging-through-walls: false
-    container-update-tick-rate: 3
+    container-update-tick-rate: 5
     keep-spawn-loaded: true
     nether-ceiling-void-damage-height: 0
-    only-players-collide: false
+    only-players-collide: true
     allow-vehicle-collisions: true
     allow-non-player-entities-on-scoreboards: false
-    portal-search-radius: 32
-    portal-create-radius: 16
+    portal-search-radius: 80
+    portal-create-radius: 10
     portal-search-vanilla-dimension-scaling: true
     armor-stands-do-collision-entity-lookups: false
     disable-thunder: false
@@ -180,9 +180,9 @@ world-settings:
     enable-treasure-maps: true
     treasure-maps-return-already-discovered: false
     show-sign-click-command-failure-msgs-to-player: false
-    iron-golems-can-spawn-in-air: false
-    max-leash-distance: 8.0
-    delay-chunk-unloads-by: 10s
+    iron-golems-can-spawn-in-air: true
+    max-leash-distance: 5.0
+    delay-chunk-unloads-by: 5s
     non-player-arrow-despawn-rate: 20
     creative-arrow-despawn-rate: 20
     split-overstacked-loot: true
@@ -221,7 +221,7 @@ world-settings:
       flat-bedrock: false
     entity-per-chunk-save-limit:
       experience_orb: 16
-      arrow: 16
+      arrow: 10
       dragon_fireball: 3
       egg: 8
       ender_pearl: 8
@@ -315,7 +315,7 @@ world-settings:
       refresh-min: 12h
       refresh-max: 2d
     mobs-can-always-pick-up-loot:
-      zombies: false
+      zombies: true
       skeletons: false
     hopper:
       ignore-occluding-blocks: true
