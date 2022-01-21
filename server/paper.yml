@@ -190,7 +190,7 @@ world-settings:
     creative-arrow-despawn-rate: 20
     split-overstacked-loot: true
     anti-xray:
-      enabled: false
+      enabled: true
       engine-mode: 1
       chunk-edge-mode: 2
       max-chunk-section-index: 3
