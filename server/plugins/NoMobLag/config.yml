@@ -107,7 +107,7 @@ mob-collisions:
   # NOTE: This feature is known to introduce certain bugs like mobs not being able to ride boats and projectiles sometimes not hitting mobs
   # Unless you REALLY need the option to only disable collision for some mobs, you should use "max-entity-collisions" from spigot.yml instead
   # https://www.spigotmc.org/wiki/spigot-configuration/
-  disable-mob-collision: false
+  disable-mob-collision: true
   # The following mobs in the list will have collision physics no matter what
   # A full list of EntityTypes can be found at https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
   force-collision-mobs:
@@ -136,6 +136,7 @@ mob-freezing:
     - ENDER_DRAGON
     - WITHER
     - ELDER_GUARDIAN
+    - VILLAGER
   # All entities with the following metadata/NBT tags will never regain AI
   # This can be useful for compatibility with villager shop plugins (to prevent them from moving)
   no-ai-tags:
