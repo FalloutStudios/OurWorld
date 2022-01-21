@@ -1,0 +1,78 @@
+# Config wiki and help can be found at https://gitlab.com/Zenya4/no-chunk-lag/-/blob/master/core/src/main/resources/config.yml
+# For internal reference only, do not change the config version
+config-version: 6
+
+# Permission node to allow players to use an elytra + trident with riptide
+# WARNING: This allows players to travel at extremely high speeds when it is raining
+elytra-riptide-permission: "nochunklag.elytra-riptide.bypass"
+
+# Worlds which the plugin will be disabled in. There will be no cooldowns or restrictions in these worlds
+# World names are cAsE sEnSiTiVe
+disabled-worlds:
+  - "testworld"
+  - "nolimits"
+
+# Worlds which elytra-boosting & trident-riptide are completely disallowed. No one will be able to use them in these worlds
+# World names are cAsE sEnSiTiVe
+disallowed-worlds:
+  - "slowworld"
+
+# How many TPS values to include in the NoChunkLag's average TPS calculation
+# Larger values will result in a more accurate average TPS but may lead to poor performance
+tps-update-interval: 15
+
+# Elytra boosting and trident riptide will be blocked no matter what when server TPS falls below this value
+noboost-tps-treshold: 12
+
+# Whether or not the cooldown timer should be dependent on server TPS
+# For example, if TPS is 10, all cooldown timers will take (20/10)=2x longer
+# Disable for better performance (async timer thread)
+tps-scale-cooldown: false
+
+# Should the plugin automatically remove elytras once they reach 1 durability?
+# Set to false for vanilla elytra behaviour
+break-elytra: false
+
+groups:
+  # Default group, players with no special permissions will use these values
+  default:
+    # Time (in seconds) to wait before player can use elytra + firework or trident + riptide again
+    cooldowns:
+      elytra-boost: 0
+      trident-riptide: 0
+    # Maximum speed (blocks per second) reachable by elytras or trident travel
+    speed-multiplier:
+      elytra-boost: 0.65
+      trident-riptide: 0.65
+    # Additional item durability loss when boost is used
+    additional-durability-loss:
+      elytra-boost: 5
+      trident-riptide: 5
+
+  # VIP group which will override the default group
+  # Assign this group to players using the permission node "nochunklag.group.vip"
+  vip:
+    cooldowns:
+      elytra-boost: 0
+      trident-riptide: 0
+    speed-multiplier:
+      elytra-boost: 0.85
+      trident-riptide: 0.85
+    additional-durability-loss:
+      elytra-boost: 3
+      trident-riptide: 3
+
+  # You can add as many groups as you wish. Groups lower in the config will override the groups avove (^)
+  # Assign these group to players using the permission node "nochunklag.group.<group_name>"
+  # Admin is just an example group, you can remove or rename it
+  admin:
+    cooldowns:
+      elytra-boost: 0
+      trident-riptide: 0
+    # Speed multiplier of 0 means that vanilla acceleration will be used. This is NOT the same as setting it to 1.0
+    speed-multiplier:
+      elytra-boost: 0
+      trident-riptide: 0
+    additional-durability-loss:
+      elytra-boost: 0
+      trident-riptide: 0
