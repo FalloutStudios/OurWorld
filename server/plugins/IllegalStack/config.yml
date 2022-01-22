@@ -30,7 +30,7 @@ Exploits:
     WatchForAutoFishMod: true
     MaxFishToNotifyStaffThenBlock: 5
   SignExploit:
-    DestroyBadSignsOnChunkLoad: true
+    DestroyBadSignsOnChunkLoad: false
   1_14_Exploits:
     Traders:
       BlockVillagerTradeCheesing: true
@@ -46,7 +46,7 @@ Exploits:
     - COMPOSTER
   OverStack:
     StackWhiteListMode: true
-    RemoveOverstackedItems: true
+    RemoveOverstackedItems: false
     RemoveItemsOfType: []
     AllowStack:
     - POTION
@@ -100,7 +100,7 @@ UserRequested:
     BlockBadItemsFromCreativeTab: false
     IgnoreAllShulkerPlaceChecks: false
     HackedShulker:
-      DestroyInvalidShulkers: true
+      DestroyInvalidShulkers: false
       CheckGroundForBadShulkerAtLogin: false
     HopperCheck:
       IgnoreAllHopperChecks: false
