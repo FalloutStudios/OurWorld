@@ -34,12 +34,12 @@ settings:
     attackDamage:
       max: 2048.0
 messages:
-  whitelist: Something went wrong connecting to server.
+  whitelist: Can't connect to server.
   unknown-command: Unknown command.
   server-full: The server is full!
   outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
+  outdated-server: Outdated server! Server's still on {0}
+  restart: Server is restarting...
 advancements:
   disable-saving: false
   disabled:
