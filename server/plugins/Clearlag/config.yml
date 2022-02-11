@@ -61,11 +61,11 @@ hopper-limiter:
 # -- 'interval' is how often clearlag will check your ram usage
 # -- 'commands' lists the commands that will be ran upon hitting your ram-limit
 ram-meter:
-  enabled: false
+  enabled: true
   interval: 20
-  ram-limit: 5000
+  ram-limit: 1800
   commands:
-    - 'lagg killmobs'
+    - 'lagg gc'
     - 'lagg clear'
 
 #Configure what the '/lagg halt' command does
