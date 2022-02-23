@@ -11,6 +11,7 @@ whitelist.json
 ops.json
 banned-ips.json
 banned-players.json
+*database*
 */world_nether/
 */world_the_end
 */world/
