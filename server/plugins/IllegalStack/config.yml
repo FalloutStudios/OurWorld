@@ -75,7 +75,7 @@ Exploits:
     PreventEndGatewayCrashExploit: true
   NegativeDurability: true
   SignExploit:
-    DestroyBadSignsOnChunkLoad: true
+    DestroyBadSignsOnChunkLoad: false
   DropperDupe:
     BlockLoopedDroppers: false
   Fishing:
