@@ -45,8 +45,8 @@
 #
 # NOTE: The %reply% placeholder needs to be present in the format if you want the DiscordToMinecraftMessageReplyFormat to display in your message.
 #
-DiscordToMinecraftChatMessageFormat: "[<aqua>From Discord</aqua> | %toprolecolor%%toprolealias%<reset>] %name%%reply% ➤ %message%"
-DiscordToMinecraftChatMessageFormatNoRole: "[<aqua>Discord</aqua>] %name%%reply% ➤ %message%"
+DiscordToMinecraftChatMessageFormat: "[<aqua>From Discord</aqua>] %name%%reply% <gray>></gray> %message%"
+DiscordToMinecraftChatMessageFormatNoRole: "[<aqua>Discord</aqua>] %name%%reply% <gray>></gray> %message%"
 DiscordToMinecraftAllRolesSeparator: " | "
 DiscordToMinecraftMessageReplyFormat: " (replying to %name%)"
 
@@ -361,7 +361,7 @@ MinecraftPlayerAchievementMessage:
 # %tps%:           average TPS of the server
 # PlaceholderAPI placeholders are also supported
 #
-ChannelTopicUpdaterChatChannelTopicFormat: ""
+ChannelTopicUpdaterChatChannelTopicFormat: "This is a test server"
 ChannelTopicUpdaterConsoleChannelTopicFormat: "TPS: %tps% | Mem: %usedmemorygb%GB used/%freememorygb%GB free/%maxmemorygb%GB max | %serverversion%"
 # AtServerShutdownFormats ONLY supports %totalplayers%, %serverversion%, & %date% / %time%
 ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: "Server is offline"
@@ -383,7 +383,7 @@ UnknownCommandMessage: "&bThat command doesn't exist!"
 # DiscordChatChannelServerStartupMessage: message to be sent when server starts; leave blank to disable
 # DiscordChatChannelServerShutdownMessage: message to be sent when server shuts down; leave blank to disable
 #
-DiscordChatChannelServerStartupMessage: ":online: **Server has started**"
+DiscordChatChannelServerStartupMessage: ":online: **Server has started** <@&874287311251177482>"
 DiscordChatChannelServerShutdownMessage: ":crashed: **Server has stopped**"
 
 # Server watchdog message

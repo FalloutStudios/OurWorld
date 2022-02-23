@@ -29,3 +29,4 @@ server/plugins/DiscordSRV/alerts.yml
 server/plugins/DiscordSRV/linking.yml
 server/plugins/DiscordSRV/synchronization.yml
 server/plugins/DiscordSRV/voice.yml
+server/plugins/DiscordSRV/linkedaccounts.json

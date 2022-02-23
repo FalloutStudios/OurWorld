@@ -50,7 +50,7 @@ antibotmode:
   - '&cBlacklist status &f$2%'
   - ''
   - '&7______________________________'
-  - '&emc.yourserver.net'
+  - '&eplay.ourmcworld.ml'
 first_join:
   - '&4Ultimate&cAnti&fBot'
   - '&7--------------------------------'
@@ -59,7 +59,7 @@ first_join:
   - '&cNow you can re-join'
   - ''
   - '&7--------------------------------'
-  - '&emc.yourserver.net'
+  - '&eplay.ourmcworld.ml'
 safe_mode:
   - '&4Ultimate&cAnti&fBot'
   - '&7We were unable to verify you in time!'
@@ -69,7 +69,7 @@ safe_mode:
   - '&cPlease Rejoin'
   - ''
   - '&7--------------------------------'
-  - '&emc.yourserver.net'
+  - '&eplay.ourmcworld.ml'
 account-online:
   - '&4Ultimate&cAnti&fBot'
   - '&7--------------------------------'
@@ -77,7 +77,7 @@ account-online:
   - '&cYou have too many accounts connected at the same time on the server!'
   - ''
   - '&7--------------------------------'
-  - '&emc.yourserver.net'
+  - '&eplay.ourmcworld.ml'
 ping:
   - '&4Ultimate&cAnti&fBot'
   - '&7--------------------------------'
@@ -85,7 +85,7 @@ ping:
   - '&cPing the server in exactly &f$1&c times and join'
   - ''
   - '&7--------------------------------'
-  - '&emc.yourserver.net'
+  - '&eplay.ourmcworld.ml'
 timer:
   - '&4Ultimate&cAnti&fBot'
   - '&7--------------------------------'
@@ -93,7 +93,7 @@ timer:
   - '&cRe-enter the server in exactly in &f$1&c seconds'
   - ''
   - '&7--------------------------------'
-  - '&emc.yourserver.net'
+  - '&eplay.ourmcworld.ml'
 blacklisted:
   - '&4Ultimate&cAnti&fBot'
   - '&7--------------------------------'
@@ -103,7 +103,7 @@ blacklisted:
   - '&cEstimated time: &f$1'
   - ''
   - '&7--------------------------------'
-  - '&emc.yourserver.net'
+  - '&eplay.ourmcworld.ml'
 stuff:
   less: 'less than'
   plus: 'more than'
