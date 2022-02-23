@@ -62,10 +62,8 @@ DefaultSkins:
 # Skins in this list will be disabled, so users can't set them.
 # Can be bypassed with 'skinsrestorer.bypassdisabled'.
 DisabledSkins:
-  Enabled: false
-  Names:
-    - "Steve"
-    - "Owner"
+  Enabled: true
+  Names: ["Jhelaii"]
 
 # Custom list for the /skins GUI.
 # ShowOnlyCustomGUI will only show CustomGUI.Names in the gui.
@@ -116,7 +114,7 @@ NoSkinIfLoginCanceled: true
 
 # When enabled, Only websites from the list below is allowed to be set using /skin url <url>
 RestrictSkinUrls:
-  Enabled: false
+  Enabled: true
   List:
     - https://i.imgur.com
     - http://i.imgur.com
@@ -149,7 +147,7 @@ RemountPlayerOnSkinUpdate: true
 
 # Dismounts all passengers mounting a player (such as plugins that let you ride another player), preventing those players from becoming desynced.
 # File override = ./plugins/SkinsRestorer/enableDismountEntities.txt
-DismountPassengersOnSkinUpdate: false
+DismountPassengersOnSkinUpdate: true
 
 ###############
 # Danger Zone #

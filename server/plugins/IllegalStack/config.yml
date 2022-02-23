@@ -9,20 +9,19 @@ Exploits:
     ExcludeNetherWorldFromHeightCheck: []
   OverStack:
     GroupStack: []
-    FixOverstackedItemInstead: false
-    AllowStack:
-    - POTION
-    RemoveOverstackedItems: true
+    FixOverstackedItemInstead: true
+    AllowStack: []
+    RemoveOverstackedItems: false
     RemoveItemsOfType: []
     PreventOverStackedItemInHoppers: true
     StackWhiteListMode: true
   Other:
-    DisableChestsOnMobs: true
+    DisableChestsOnMobs: false
     PreventInvalidPotions: true
     PreventCommandsInBed: true
     PreventHoppersToUnloadedChunks: true
     PreventRailDupe: true
-    PreventBedExplosions: true
+    PreventBedExplosions: false
     PreventNestedShulkers: true
     DisableRidingExploitableMobs: true
     PreventInvalidElytraFlight: true
@@ -49,7 +48,7 @@ Exploits:
     EnchantedItemWhitelist: []
     RemoveCustomAttributes: false
     RemoveUnbreakableFlag: false
-    FixIllegalEnchants: false
+    FixIllegalEnchants: true
     AllowBypass: false
     OnlyFunctionInWorlds: []
   PortalDupe:
@@ -76,7 +75,7 @@ Exploits:
     PreventEndGatewayCrashExploit: true
   NegativeDurability: true
   SignExploit:
-    DestroyBadSignsOnChunkLoad: false
+    DestroyBadSignsOnChunkLoad: true
   DropperDupe:
     BlockLoopedDroppers: false
   Fishing:
@@ -115,8 +114,8 @@ UserRequested:
     PreventCobbleGenerators: false
   Obscure:
     HackedShulker:
-      DestroyInvalidShulkers: false
-      CheckGroundForBadShulkerAtLogin: false
+      DestroyInvalidShulkers: true
+      CheckGroundForBadShulkerAtLogin: true
     IgnoreAllShulkerPlaceChecks: false
     HopperCheck:
       IgnoreAllHopperChecks: false
@@ -129,7 +128,7 @@ Exploit:
     End Crystal: true
     ArmorStand: true
   Teleport:
-    CorrectionNotify: false
+    CorrectionNotify: true
 Misc:
   InGameOffenseNotifications: true
   LogOffensesInSeparateFile: true
