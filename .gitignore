@@ -1,2 +1,7 @@
 *.jar
 old_*
+*.log
+/logs
+eula.txt
+*.db
+*.csv
