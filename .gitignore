@@ -5,3 +5,4 @@ old_*
 eula.txt
 *.db
 *.csv
+/cache
