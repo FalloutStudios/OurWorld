@@ -24,3 +24,4 @@ server/plugins/UltimateAntiBot/whitelist.yml
 server/plugins/Multiverse-Inventories/groups/
 server/plugins/Multiverse-Inventories/worlds/
 server/plugins/IllegalStack/config.yml
+server/plugins/DiscordSRV/config.yml
