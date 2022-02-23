@@ -19,3 +19,5 @@ banned-players.json
 */plugins/bStats/
 */plugins/LuckPerms/translations/
 .*
+server/plugins/*/players/
+server/plugins/UltimateAntiBot/whitelist.yml
