@@ -163,3 +163,5 @@ world-settings:
       monsters: 32
       misc: 32
       other: 64
+  worldeditregentempworld:
+    verbose: false
