@@ -25,3 +25,7 @@ server/plugins/Multiverse-Inventories/groups/
 server/plugins/Multiverse-Inventories/worlds/
 server/plugins/IllegalStack/config.yml
 server/plugins/DiscordSRV/config.yml
+server/plugins/DiscordSRV/alerts.yml
+server/plugins/DiscordSRV/linking.yml
+server/plugins/DiscordSRV/synchronization.yml
+server/plugins/DiscordSRV/voice.yml
