@@ -114,7 +114,7 @@ UserRequested:
     PreventCobbleGenerators: false
   Obscure:
     HackedShulker:
-      DestroyInvalidShulkers: true
+      DestroyInvalidShulkers: false
       CheckGroundForBadShulkerAtLogin: true
     IgnoreAllShulkerPlaceChecks: false
     HopperCheck:
