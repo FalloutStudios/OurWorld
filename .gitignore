@@ -34,3 +34,5 @@ server/plugins/DiscordSRV/voice.yml
 server/plugins/DiscordSRV/linkedaccounts.json
 server/plugins/ProtocolLib/lastupdate
 server/start.sh
+server/plugins/AdvancedBan/data/storage.properties
+server/plugins/AdvancedBan/data/storage.script
