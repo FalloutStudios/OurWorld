@@ -18,6 +18,7 @@ banned-players.json
 */tmp/
 */plugins/bStats/
 */plugins/LuckPerms/translations/
+*.data
 .*
 server/server.properties
 server/plugins/*/players/
