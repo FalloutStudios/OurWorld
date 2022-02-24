@@ -1,2 +1,9 @@
-main-spawn: ''
-spawns: {}
+main-spawn: world
+spawns:
+  world:
+    x: 223.0
+    y: 71.0
+    z: 241.0
+    world: world
+    yaw: 0.0
+    pitch: 0.0
