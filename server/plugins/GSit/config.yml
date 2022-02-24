@@ -1,0 +1,130 @@
+Lang:
+
+  # Defines the plugin language
+  lang: en_en
+
+
+
+Options:
+
+  # Defines whether the plugin should notify when a new version is available
+  check-for-update: true
+
+  # Defines whether the plugin should check permissions for standard functions
+  check-feature-permissions: true
+
+  # Defines whether a player gets up when he suffers damage
+  get-up-damage: false
+
+  # Defines whether a player can get up by sneaking
+  get-up-sneak: true
+
+  # Defines whether a player is returned to the place where he started sitting or posing
+  get-up-return: false
+
+  # Defines whether a player gets up if the connected block breaks
+  get-up-break: true
+
+  # Defines whether a player can sit or pose in an unsafe place
+  allow-unsafe: false
+
+  # Defines whether more than one player can sit or pose on the same block
+  rest-same-block: false
+
+  Sit:
+
+    # Defines whether a player is centered on the block when sitting
+    block-center: true
+
+    # Defines the blocks a player can sit on by clicking (Materials and Tags)
+    # Separate a material or tag from its y-offset with ";". For example, "STONE;0.5" for a y-offset of 0.5 for stone material
+    SitMaterials:
+      - "#STAIRS"
+      - "#SLABS"
+      - "#CARPETS"
+      - "MOSS_CARPET"
+      - "BIG_DRIPLEAF"
+      - "SNOW"
+
+    # Defines whether a player needs an empty main hand to sit down by clicking
+    empty-hand-only: true
+
+    # Defines the maximum range in which a player can sit down by clicking (0 means unlimited!)
+    max-distance: 3
+
+    # Defines whether a player should receive a custom message when he starts to sit
+    show-sit-message: true
+
+    # Defines whether a player can sit by default without using the sit toggle command
+    default-sit-mode: true
+
+
+
+  PlayerSit:
+
+    # Defines whether a player can right-click to sit on another player
+    use-playersit: true
+
+    # Defines whether a player can right-click to sit on an NPC
+    use-playersit-npc: false
+
+    # Defines the maximum number of players that can be stacked (0 means unlimited!)
+    max-stack: 4
+
+    # Defines whether a player should kick out all passengers when sneaking
+    sneak-ejects: true
+
+    # Defines whether a player needs an empty main hand to sit on another player
+    empty-hand-only: true
+
+    # Defines whether a player should receive a custom message when he starts to sit on another player
+    show-sit-message: true
+
+    # Defines whether a player can sit on another player by default without using the sit playertoggle command
+    default-sit-mode: true
+
+
+
+  Pose:
+
+    # Defines whether a player is centered on the block when posing
+    block-center: true
+
+    # Defines whether a player should receive a custom message when he starts to pose
+    show-pose-message: true
+
+    # Defines whether a player can interact with the environment while posing
+    interact: false
+
+    # Defines whether to reset the time since a player's last rest, which affects his phantom spawn timer
+    lay-reset-time-since-rest: true
+
+    # Defines whether a player makes snoring sounds when lying down
+    lay-snoring-sounds: true
+
+    # Defines whether snoring sounds are only heard at night
+    lay-snoring-night-only: true
+
+    # Defines whether a lying player counts for skipping the night (At least one player must be sleeping in a bed to skip the night!)
+    lay-night-skip: false
+
+
+
+  Crawl:
+
+    # Defines whether a player can get up by sneaking
+    get-up-sneak: true
+
+
+
+  # Defines whether a player can only sit or pose on a plot where he is part of the team
+  rest-team-plots-only: false
+
+  # Defines the worlds in which a player cannot sit, pose or crawl
+  WorldBlacklist: []
+
+  # Defines the list of materials on which a player may not sit or pose
+  MaterialBlacklist: []
+
+  # Defines the list of commands that cannot be executed while sitting or posing
+  CommandBlacklist: []
