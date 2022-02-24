@@ -355,7 +355,8 @@ redirect-to-whitelisted-worlds: false
 # Worlds you can use /tpr in.
 # If a player uses /tpr in a world that doesn't allow it, they will be teleported in the first world on the list instead.
 # To make this feature effective, turn on "whitelist-worlds" above.
-allowed-worlds: [world]
+allowed-worlds:
+- world
 
 ###########
 #  Homes  #
