@@ -1,3 +1,4 @@
+# Edited by: FalloutStudios
 # This is the main configuration file for Spigot.
 # As you can see, there's tons to configure. Some options may impact gameplay, so use
 # with caution, and make sure you know what each option does before configuring.
@@ -34,12 +35,12 @@ settings:
     attackDamage:
       max: 2048.0
 messages:
-  whitelist: Can't connect to server.
+  whitelist: Something went wrong connecting to server.
   unknown-command: Unknown command.
   server-full: The server is full!
   outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! Server's still on {0}
-  restart: Server is restarting...
+  outdated-server: Outdated server! I'm still on {0}
+  restart: Server is restarting
 advancements:
   disable-saving: false
   disabled:
@@ -163,5 +164,3 @@ world-settings:
       monsters: 32
       misc: 32
       other: 64
-  worldeditregentempworld:
-    verbose: false
