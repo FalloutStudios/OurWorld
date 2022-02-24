@@ -1,0 +1,31 @@
+warps:
+  slots: 27
+  gui-enabled: false
+  icons:
+    last-page:
+      name: '&bLast Page'
+      item: ARROW
+      tooltip: []
+      slot: 18
+    next-page:
+      name: '&bNext Page'
+      item: ARROW
+      tooltip: []
+      slot: 26
+  warps:
+    warpName1:
+      name: '&aWarp Name 1'
+      item: DIAMOND_SWORD
+      tooltip:
+      - '&7Teleports you to warpName1'
+      slot: 11
+      page: 0
+      hide-if-no-permission: false
+    warpName2:
+      name: '&7Warp Name 2'
+      item: IRON_PICKAXE
+      tooltip:
+      - '&7Teleports you to warpName2'
+      slot: 13
+      page: 0
+      hide-if-no-permission: true
