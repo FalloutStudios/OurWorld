@@ -19,6 +19,7 @@ banned-players.json
 */plugins/bStats/
 */plugins/LuckPerms/translations/
 .*
+server/server.properties
 server/plugins/*/players/
 server/plugins/UltimateAntiBot/whitelist.yml
 server/plugins/Multiverse-Inventories/groups/
@@ -31,3 +32,4 @@ server/plugins/DiscordSRV/synchronization.yml
 server/plugins/DiscordSRV/voice.yml
 server/plugins/DiscordSRV/linkedaccounts.json
 server/plugins/ProtocolLib/lastupdate
+server/start.sh
