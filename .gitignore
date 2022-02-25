@@ -22,6 +22,7 @@ banned-players.json
 .*
 server/server.properties
 server/plugins/*/players/
+server/plugins/*/logs/
 server/plugins/UltimateAntiBot/whitelist.yml
 server/plugins/Multiverse-Inventories/groups/
 server/plugins/Multiverse-Inventories/worlds/
@@ -37,3 +38,4 @@ server/start.sh
 server/plugins/AdvancedBan/data/storage.properties
 server/plugins/AdvancedBan/data/storage.script
 server/plugins/SkinsRestorer/Skins/
+server/plugins/WorldEdit/schematics/
