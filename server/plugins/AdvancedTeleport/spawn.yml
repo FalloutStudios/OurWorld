@@ -1,9 +1,9 @@
 main-spawn: world
 spawns:
   world:
-    x: 223.0
-    y: 71.0
-    z: 241.0
+    x: 223.56335268515502
+    y: 71.0625
+    z: 241.44781528237777
     world: world
-    yaw: 0.0
-    pitch: 0.0
+    yaw: -1.2000008
+    pitch: 5.250002
