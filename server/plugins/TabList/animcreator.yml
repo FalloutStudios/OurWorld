@@ -1,0 +1,25 @@
+animations:
+  title:
+    random: true
+    interval: 5
+    texts:
+      - '&aOurWorld'
+      - '&bOurWorld'
+      - '&cOurWorld'
+      - '&3OurWorld'
+      - '&eOurWorld'
+  bar:
+    random: false
+    interval: 20
+    texts:
+      - '&b&9-&b---------'
+      - '&b-&9-&b--------'
+      - '&b--&9-&b-------'
+      - '&b---&9-&b------'
+      - '&b----&9-&b-----'
+      - '&b-----&9-&b----'
+      - '&b------&9-&b---'
+      - '&b-------&9-&b--'
+      - '&b--------&9-&b-'
+      - '&b---------&9-&b'
+      - '&b----------'
