@@ -20,6 +20,7 @@ banned-players.json
 */plugins/LuckPerms/translations/
 *.data
 .*
+*.old
 server/server.properties
 server/plugins/*/players/
 server/plugins/*/logs/
@@ -39,3 +40,8 @@ server/plugins/AdvancedBan/data/storage.properties
 server/plugins/AdvancedBan/data/storage.script
 server/plugins/SkinsRestorer/Skins/
 server/plugins/WorldEdit/schematics/
+server/plugins/GriefPreventionData/ClaimData
+server/plugins/GriefPreventionData/PlayerData
+
+server/plugins/Vulcan
+server/plugins/BungeeGuard
