@@ -222,7 +222,8 @@ blacklist:
     command_block:
       '*': '&cWait that''s illegal! Why you have command block? sussy'
     end_portal_frame:
-      '*': '&cIllegal!'
+      'break': '&cIllegal!'
+      'place': '&cIllegal'
     light:
       '*': '&cIllegal!'
     CARVED_BITCH:
