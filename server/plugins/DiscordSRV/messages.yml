@@ -45,10 +45,10 @@
 #
 # NOTE: The %reply% placeholder needs to be present in the format if you want the DiscordToMinecraftMessageReplyFormat to display in your message.
 #
-DiscordToMinecraftChatMessageFormat: "[<aqua>From Discord</aqua>] %name%%reply% <gray>></gray> %message%"
-DiscordToMinecraftChatMessageFormatNoRole: "[<aqua>Discord</aqua>] %name%%reply% <gray>></gray> %message%"
+DiscordToMinecraftChatMessageFormat: "&7[&bFrom Discord&7] &f%toprolecolor%%name%%reply% &7>&f %message%"
+DiscordToMinecraftChatMessageFormatNoRole: "&7[&bFrom Discord&7] &f%name%%reply% &7>&f %message%"
 DiscordToMinecraftAllRolesSeparator: " | "
-DiscordToMinecraftMessageReplyFormat: " (replying to %name%)"
+DiscordToMinecraftMessageReplyFormat: " &f(replying to &b%name%&f)"
 
 # Minecraft -> Discord message
 #
@@ -361,10 +361,10 @@ MinecraftPlayerAchievementMessage:
 # %tps%:           average TPS of the server
 # PlaceholderAPI placeholders are also supported
 #
-ChannelTopicUpdaterChatChannelTopicFormat: "This is a test server | expect server restart and crashes"
+ChannelTopicUpdaterChatChannelTopicFormat: ""
 ChannelTopicUpdaterConsoleChannelTopicFormat: "TPS: %tps% | Mem: %usedmemorygb%GB used/%freememorygb%GB free/%maxmemorygb%GB max | %serverversion%"
 # AtServerShutdownFormats ONLY supports %totalplayers%, %serverversion%, & %date% / %time%
-ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: "Server is offline"
+ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: ""
 ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "Server is offline | %serverversion%"
 
 # Discord command message
