@@ -64,8 +64,6 @@ ram-meter:
   interval: 20
   ram-limit: 1700
   commands:
-    - 'lagg killmobs'
-    - 'lagg clear'
     - 'lagg gc'
 
 #Configure what the '/lagg halt' command does
