@@ -241,6 +241,11 @@ advanced:
     commands-after-register:
       #- "@console tell @player Welcome to the server!" # run in console
       #- "@delay 40 /kit starter" # wait for 40 ticks (2s)
+      - '@console give @player golden_shovel'
+      - '@console give @player stone_pickaxe'
+      - '@console give @player oak_log 32'
+      - '@console give @player cooked_chicken 64'
+      - '@console claimbook @player'
 
     # Insert here the list of commands to be executed after logging in.
     commands-after-login:
@@ -369,6 +374,6 @@ commands:
     commands: [register]
     description: Command to register an account.
   unregister:
-    enabled: true
+    enabled: false
     commands: [unregister]
     description: Command to unregister.
