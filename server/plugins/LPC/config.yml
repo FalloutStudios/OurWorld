@@ -20,5 +20,5 @@ chat-format: "{prefix} &r{name} &r&7>&r {message}"
 # Set the format per group.
 # Note: Option for more advanced users. Remove comments to run.
 group-formats:
-#  default: "[default] {name}&r: {message}"
+  default: "{name} &r&7>&r {message}"
 #  admin: "[admin] {name}&r: {message}"
