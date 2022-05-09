@@ -1,14 +1,27 @@
-# Edited by: FalloutStudios
 animations:
   title:
-    random: true
-    interval: 5
+    random: false
+    interval: 20
     texts:
-      - '&aOurWorld'
-      - '&bOurWorld'
-      - '&cOurWorld'
-      - '&3OurWorld'
-      - '&eOurWorld'
+      - '&#45e0fb&lO&#41d5fb&lu&#3ecafc&lr&#3abffc&lW&#37b3fc&lo&#33a8fc&lr&#309dfd&ll&#2c92fd&ld'
+      - '&#13bcfb&lO&#1ac5e6&lu&#21cfd1&lr&#28d8bc&lW&#30e1a7&lo&#37ea92&lr&#3ef47d&ll&#45fd68&ld'
+      - '&#fb6a6a&lO&#fb6070&lu&#fc5676&lr&#fc4c7c&lW&#fc4281&lo&#fc3887&lr&#fd2e8d&ll&#fd2493&ld'
+      - '&#60acfb&lO&#7699ec&lu&#8d85dd&lr&#a372ce&lW&#ba5ec0&lo&#d04bb1&lr&#e737a2&ll&#fd2493&ld'
+      - '&#fbc959&lO&#fbbd61&lu&#fcb069&lr&#fca471&lW&#fc9878&lo&#fc8c80&lr&#fd7f88&ll&#fd7390&ld'
+  ip:
+    random: false
+    interval: 20
+    texts:
+      - '&#38fb80p&#39fb82l&#3afb84a&#3bfb86y&#3cfb88.&#3dfc8ao&#3efc8cu&#3ffc8er&#40fc90m&#40fc91c&#41fc93w&#42fc95o&#43fc97r&#44fd99l&#45fd9bd&#46fd9d.&#47fd9fg&#48fda1q'
+      - '&#38fb80p&#38fb83l&#38fb86a&#38fb88y&#38fb8b.&#37fc8eo&#37fc91u&#37fc93r&#37fc96m&#37fc99c&#37fc9cw&#37fc9eo&#37fca1r&#36fda4l&#36fda7d&#36fda9.&#36fdacg&#36fdafq'
+      - '&#27fbc2p&#28f9c5l&#29f6c9a&#2bf4ccy&#2cf2d0.&#2df0d3o&#2eedd7u&#2febdar&#30e9dem&#32e6e1c&#33e4e5w&#34e2e8o&#35dfecr&#36ddefl&#37dbf3d&#39d9f6.&#3ad6fag&#3bd4fdq'
+      - '&#2ccffbp&#2dcbfbl&#2ec6fba&#2fc2fby&#30befb.&#31b9fco&#32b5fcu&#33b1fcr&#34acfcm&#36a8fcc&#37a3fcw&#389ffco&#399bfcr&#3a96fdl&#3b92fdd&#3c8efd.&#3d89fdg&#3e85fdq'
+      - '&#38bbfbp&#3fb4fbl&#45adfba&#4ca6fby&#529ffb.&#5998fco&#5f91fcu&#668afcr&#6c83fcm&#737dfcc&#7976fcw&#806ffco&#8668fcr&#8d61fdl&#935afdd&#9a53fd.&#a04cfdg&#a745fdq'
+      - '&#4e45fbp&#5845fbl&#6244fba&#6b44fby&#7544fb.&#7f44fco&#8943fcu&#9243fcr&#9c43fcm&#a642fcc&#b042fcw&#b942fco&#c341fcr&#cd41fdl&#d741fdd&#e041fd.&#ea40fdg&#f440fd'
+      - '&#f240fbp&#f343f0l&#f347e4a&#f44ad9y&#f54dcd.&#f551c2o&#f654b7u&#f757abr&#f75ba0m&#f85e94c&#f86289w&#f9657do&#fa6872r&#fa6c67l&#fb6f5bd&#fc7250.&#fc7644g&#fd7939q'
+      - '&#fb904cp&#fb944bl&#fb9849a&#fb9d48y&#fba147.&#fca546o&#fca944u&#fcad43r&#fcb142m&#fcb640c&#fcba3fw&#fcbe3eo&#fcc23cr&#fdc63bl&#fdca3ad&#fdcf39.&#fdd337g&#fdd736q'
+      - '&#fbd845p&#f4da45l&#eddc44a&#e5df44y&#dee143.&#d7e343o&#d0e543u&#c9e742r&#c2e942m&#baec41c&#b3ee41w&#acf040o&#a5f240r&#9ef440l&#97f63fd&#8ff93f.&#88fb3eg&#81fd3eq'
+      - '&#7dfb4ap&#7bfb4fl&#78fb55a&#76fb5ay&#74fb60.&#71fc65o&#6ffc6bu&#6dfc70r&#6afc76m&#68fc7bc&#65fc81w&#63fc86o&#61fc8cr&#5efd91l&#5cfd97d&#5afd9c.&#57fda2g&#55fda7q'
   bar:
     random: false
     interval: 20
