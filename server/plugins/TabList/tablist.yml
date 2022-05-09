@@ -1,4 +1,3 @@
-# Edited by: FalloutStudios
 # Tablist header & footer with animations.
 
 # Available placeholders: https://github.com/montlikadani/TabList/wiki/Placeholders
@@ -36,26 +35,28 @@ interval: 4
 random: false
 
 header:
-- "&b============================"
+- " %memory_bar% "
+- ""
 - ""
 - "%anim:title%"
 - ""
-- "&7IP: &bplay.ourmcworld.ml"
 - ""
 
 footer:
+- ""
 - "%anim:bar%"
 - ""
 - "&7TikTok: &b@ourworld.minecraft"
 - "&7Discord: &bdiscord.gg/V5jC5PV5Pw"
 - ""
-- "&7Players Online: &b%server_online%"
-- "&7TPS: &b%tps%"
-- "&7PING: &b%ping%"
 - ""
-- "&7Memmory Usage"
+- "  &7PING: &b%ping%    &7TPS: &b%tps%    &7PLAYERS: &b%server_online%  "
 - ""
-- "%memory_bar%"
+- ""
+- "%anim:ip%"
+- ""
+- ""
+- " %memory_bar% "
 
 # Defines per world tablist for different worlds
 # You can separate worlds with ", " to show tablist in that worlds
