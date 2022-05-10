@@ -1,22 +1,13 @@
+# Edited by: FalloutStudios
 hook:
 
   # Hook to PlaceholderAPI to use custom placeholders.
   placeholderapi: true
 
 # Different player list in different world.
-per-world-player-list:
-  enabled: false
+per-world-player-list: false
 
-  # You can specify worlds, which will share the same list of players
-  world-groups:
-    exampleGroup2:
-    - exampleWorld2
-    - exampleAnotherWorld2
-
-    # The key name, can be anything
-    example1:
-    - exampleWorld
-    - exampleAnotherWorld
+# Fake players that can be added to the player list.
 enable-fake-players: true
 
 # If enabled, the gray color will not appear to other players when the player's game mode is spectator.
@@ -79,16 +70,18 @@ placeholder-format:
 
     # Formats/examples: https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html
     # Format of %server-time% placeholder.
-    time-format: mm:HH
+    time-format:
+      format: mm:HH
 
     # Format of %date% placeholder.
-    date-format: dd/MM/yyyy
+    date-format:
+      format: dd/MM/yyyy
 
   # Ping color format for %ping% placeholder.
   ping:
     enable: true
 
-    # https://github.com/montlikadani/TabList/wiki/Ping-or-tps-formatting
+    # Operators usage: https://github.com/montlikadani/TabList/wiki/Ping-or-tps-formatting
     formats:
     - '&a%ping% <= 200'
     - '&6%ping% >= 200'
@@ -98,7 +91,7 @@ placeholder-format:
   tps:
     enable: true
 
-    # https://github.com/montlikadani/TabList/wiki/Ping-or-tps-formatting
+    # Operators usage: https://github.com/montlikadani/TabList/wiki/Ping-or-tps-formatting
     formats:
     - '&a%tps% > 18.0'
     - '&6%tps% == 16.0'
@@ -106,22 +99,22 @@ placeholder-format:
 
     # How many numbers do you want to display after "." in %tps% placeholder?
     # The number should be higher than 0.
-    # Example: 3 = 19.14
-    size: 1
+    # Example: 3 = 20.14
+    size: 2
 
   # Memory bar settings for %memory_bar% variable
   memory-bar:
-    char: '.'
+    char: '|'
     colors:
-      used: '&b&l'
-      free: '&7&l'
+      used: '&b'
+      free: '&7'
 
       # When the server memory less than 80
-      allocation: '&a&l'
+      allocation: '&a'
 
       # When the server memory is on critical level (less than 40) and some resource need memory to run.
-      released: '&d&l'
-    size: 65
+      released: '&d'
+    size: 80
 
 # Enable changing of prefix & suffix in player list?
 change-prefix-suffix-in-tablist:
@@ -166,11 +159,12 @@ change-prefix-suffix-in-tablist:
 # Shows your current health (with life indicator), your current ping or any NUMBER placeholder
 # after the player's name (before the ping indicator).
 tablist-object-type:
+  enable: false
 
   # Objective settings
   object-settings:
 
-    # Custom placeholder - accepts only number-ending placeholders, like %level%
+    # Custom placeholder - accepts only number-ending placeholders, like %level%.
     custom:
       value: '%level%'
 
@@ -183,17 +177,17 @@ tablist-object-type:
       - players
 
   # Types:
-  # none - disables tablist objects
   # ping - player's ping
   # health - player's health
   # custom - custom placeholder
-  type: none
+  type: ping
 
   # In these worlds the objects will not be displayed
   disabled-worlds:
   - testingWorld
 
-  # Interval for objects refreshing in seconds.
+  # Interval for objects refreshing. In seconds.
+  # Note: The health is not updating auto due to display issues.
   refresh-interval: 3
 
 # Check for updates?
@@ -205,10 +199,3 @@ download-updates: false
 
 # Log plugin messages to console?
 logconsole: true
-
-# Fake players that can be added to the player list.
-fake-players:
-  enabled: true
-
-  # Do we count the added fake players to the %online-players% placeholder?
-  count-fake-players-to-online-players: false
