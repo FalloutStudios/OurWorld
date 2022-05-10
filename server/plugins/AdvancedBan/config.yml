@@ -1,4 +1,3 @@
-# Edited by: FalloutStudios
 # AdvancedBan v2 - Coded by Leoko
 # For each setting, there is a small description.
 # Please read each description carefully before changing anything.
@@ -26,7 +25,7 @@ DetailedDisableMessage: true
 LockdownOnError: true
 
 # This will be the default reason to be displayed if none is given
-DefaultReason: "unset"
+DefaultReason: "none"
 
 # Change this if your server has a different time that your users.
 # e.g.: ServerTime: 16:43 | Your Time: 13:43 | TimeDiff has to be set to -3
@@ -66,10 +65,7 @@ MuteCommands:
 # These players will not be able to get punished in any way
 # this also works if the player is offline
 # Use Vault to make exempt permissions also work for offline players
-ExemptPlayers:
-- 'GhexterCortes'
-- 'BetaHiddenPlayer'
-- 'HiddenPlayer'
+ExemptPlayers: []
 
 # The date-format which will be used for the %DATE% variable
 DateFormat: "dd.MM.yyyy-HH:mm"
@@ -128,7 +124,7 @@ Debug: false
 
 # This is the amount of days that we should keep plugin logs in the plugins/AdvancedBan/logs folder.
 # By default is set to 10 days.
-Log Purge Days: 10
+Log Purge Days: 2
 
 # Removes the prefix of the plugin in every message.
 Disable Prefix: false

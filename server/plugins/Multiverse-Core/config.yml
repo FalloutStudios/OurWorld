@@ -1,5 +1,3 @@
-
-# Edited by: FalloutStudios
 #  -------------------------------------------------------------------------  #
 # This is the MV2 Config. If you mess it up, copy the values out              #
 # delete it, and it will be regenerated. Then use the ingame interface        #
@@ -21,10 +19,10 @@ multiverse-configuration:
   ==: com.onarandombox.MultiverseCore.MultiverseCoreConfiguration
   enforceaccess: 'false'
   prefixchat: 'false'
-  prefixchatformat: '%chat%'
-  useasyncchat: 'false'
+  prefixchatformat: '[%world%]%chat%'
+  useasyncchat: 'true'
   teleportintercept: 'true'
-  firstspawnoverride: 'false'
+  firstspawnoverride: 'true'
   displaypermerrors: 'true'
   enablebuscript: 'true'
   globaldebug: '0'
@@ -33,7 +31,7 @@ multiverse-configuration:
   version: '2.9'
   firstspawnworld: world
   teleportcooldown: '1000'
-  defaultportalsearch: 'false'
+  defaultportalsearch: 'true'
   portalsearchradius: '128'
   autopurge: 'true'
   idonotwanttodonate: 'false'

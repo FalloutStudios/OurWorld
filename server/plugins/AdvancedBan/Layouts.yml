@@ -1,4 +1,3 @@
-# Edited by: FalloutStudios
 # The default layouts are in the Message.yml file!
 
 # Message-Layouts can not only be used for bans but also for mutes and warns
@@ -22,7 +21,7 @@ Message:
     - "&c&lUnban in &r&7> &b%DURATION%"
     - '&7'
     - '&7Unban application in Discord'
-    - "&b&lDiscord &r&7> &ahttps://discord.gg/VwrC2Zcc3e"
+    - "&b&lDiscord &r&7> &ahttps://discord.gg/ZFneUZAjf3"
   TempBannedLayout:
     - '%PREFIX% &7 Temporarily Banned'
     - '&c&lBanned by &r&7%OPERATOR%'
@@ -31,7 +30,7 @@ Message:
     - "&c&lUnban in &r&7> &b%DURATION%"
     - '&7'
     - '&7Unban application in Discord'
-    - "&b&lDiscord &r&7> &ahttps://discord.gg/VwrC2Zcc3e"
+    - "&b&lDiscord &r&7> &ahttps://discord.gg/ZFneUZAjf3"
   IpBannedLayout:
     - '%PREFIX% &7IP Banned'
     - '&c&lBanned by &r&7%OPERATOR%'
@@ -40,7 +39,7 @@ Message:
     - "&c&lUnban in &r&7> &b%DURATION%"
     - '&7'
     - '&7Unban application in Discord'
-    - "&b&lDiscord &r&7> &ahttps://discord.gg/VwrC2Zcc3e"
+    - "&b&lDiscord &r&7> &ahttps://discord.gg/ZFneUZAjf3"
   TempIpBannedLayout:
     - '%PREFIX% &7Temporarily Banned'
     - '&c&lBanned by &r&7%OPERATOR%'
@@ -49,7 +48,7 @@ Message:
     - "&c&lUnban in &r&7> &b%DURATION%"
     - '&7'
     - '&7Unban application in Discord'
-    - "&b&lDiscord &r&7> &ahttps://discord.gg/VwrC2Zcc3e"
+    - "&b&lDiscord &r&7> &ahttps://discord.gg/ZFneUZAjf3"
   ClassicBannedLayout:
     - '%REASON%'
   ClassicKickedLayout:
@@ -67,4 +66,3 @@ Time:
     - '1mo'
     - '2mo'
     - '4mo'
-    - 'perma'

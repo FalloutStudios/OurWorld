@@ -1,5 +1,4 @@
-# Edited by: FalloutStudios
-PREFIX: '&e[&2SkinsRestorer&e] '
+PREFIX: '&7[&3Skins&7] '
 HELP_SKIN_CLEAR: Clears your skin.
 HELP_SKIN_CLEAR_OTHER: Clears the skin of another player.
 HELP_SKIN_UPDATE: Updates your skin.
@@ -12,16 +11,16 @@ HELP_SR_STATUS: Checks plugin needed API services
 HELP_SR_DROP: Removes players or skin data.
 HELP_SR_PROPS: Displays the players current skin properties.
 HELP_SR_APPLY_SKIN: Re-apply the skin for target user.
-HELP_SR_CreateCustom: Create a custom server wide skin
+HELP_SR_CREATECUSTOM: Create a custom server wide skin
 SYNTAX_DEFAULTCOMMAND: ' <skin/url>'
 SYNTAX_SKINSET: ' <skin>'
 SYNTAX_SKINSET_OTHER: ' <target> <skin/url>'
 SYNTAX_SKINURL: ' <SkinUrl> [steve/slim]'
 SYNTAX_SKINUPDATE_OTHER: ' <target>'
 SYNTAX_SKINCLEAR_OTHER: ' <target>'
-Completions_Skin: <Skin>
-Completions_SkinName: <SkinName>
-Completions_SkinUrl: <SkinUrl>
+COMPLETIONS_SKIN: <Skin>
+COMPLETIONS_SKINNAME: <SkinName>
+COMPLETIONS_SKINURL: <SkinUrl>
 PLAYER_HAS_NO_PERMISSION_SKIN: '&4Error&8: &cYou don''t have permission to set this
     skin.'
 PLAYER_HAS_NO_PERMISSION_URL: '&4Error&8: &cYou don''t have permission to set skins

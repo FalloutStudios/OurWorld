@@ -1,4 +1,3 @@
-# Edited by: FalloutStudios
 # CoreProtect Config
 
 # CoreProtect is donationware. For more information, visit our project page.
@@ -85,13 +84,13 @@ sign-text: true
 buckets: true
 
 # Logs natural tree leaf decay.
-leaf-decay: false
+leaf-decay: true
 
 # Logs tree growth. Trees are linked to the player who planted the sappling.
-tree-growth: false
+tree-growth: true
 
 # Logs mushroom growth.
-mushroom-growth: false
+mushroom-growth: true
 
 # Logs natural vine growth.
 vine-growth: true
@@ -131,16 +130,16 @@ hopper-transactions: true
 player-interactions: true
 
 # Logs messages that players send in the chat.
-player-messages: false
+player-messages: true
 
 # Logs all commands used by players.
-player-commands: false
+player-commands: true
 
 # Logs the logins and logouts of players.
-player-sessions: false
+player-sessions: true
 
 # Logs when a player changes their Minecraft username.
-username-changes: false
+username-changes: true
 
 # Logs changes made via the plugin "WorldEdit" if it's in use on your server.
 worldedit: true

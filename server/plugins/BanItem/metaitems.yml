@@ -1,3 +1,4 @@
+# +———————————————————————————————————————————————————+ #
 # |——————————     BANITEM CONFIGURATION     ——————————| #
 # |——————————————————      v3.0      —————————————————| #
 # +———————————————————————————————————————————————————+ #
@@ -9,7 +10,6 @@
 # This file is used to save the meta items (items with its metadata).
 # I highly suggest you to NOT modify this file manually, it may broke the item.
 # Use the /bi mi command instead.
-
 CARVED_BITCH:
   ==: org.bukkit.inventory.ItemStack
   v: 2730

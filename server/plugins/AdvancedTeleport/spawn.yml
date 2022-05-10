@@ -1,10 +1,9 @@
-# Edited by: FalloutStudios
 main-spawn: world
 spawns:
   world:
-    x: 208.392787362332
-    y: 72.0
-    z: 844.4015103681845
+    x: 223.56335268515502
+    y: 71.0625
+    z: 241.44781528237777
     world: world
-    yaw: 2.5499358
-    pitch: 4.950055
+    yaw: -1.2000008
+    pitch: 5.250002

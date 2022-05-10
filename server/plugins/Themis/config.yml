@@ -98,3 +98,4 @@ tickrate: {}
 # Ingame name: Flight / Y-Movement
 # Hacks that can trigger this: Fly, Glide, Jetpack, HighJump, Step, some Speed modes, ...
 vertical_movement: {}
+

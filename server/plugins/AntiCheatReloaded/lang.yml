@@ -11,3 +11,4 @@ KICK_BROADCAST: '&c&lSUS &b&lAntiCheat &8> &7%player% was kicked for cheating'
 SPAM_WARNING: '&6&lACR &8> &7Stop spamming the server or you will be kicked!'
 SPAM_KICK_REASON: '&6&lACR &8> &7Kicked for spamming'
 SPAM_BAN_REASON: '&6&lACR &8> &7Banned for spamming'
+

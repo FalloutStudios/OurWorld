@@ -18,3 +18,4 @@ TELEPORT_MIN: 400
 # Decrease this in case of clientside lag-related false positives
 # Do not lower below 50 or increase above 75
 LAG_DETERMINATION: 60
+

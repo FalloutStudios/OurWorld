@@ -1,7 +1,6 @@
-# Edited by: FalloutStudios
 ##################################
 #    SkinsRestorer Config.yml    #
-#      Generated on 14.1.5       #
+#      Generated on 14.1.10       #
 ##################################
 #
 # We from SRTeam thank you for using our plugin!
@@ -63,10 +62,8 @@ DefaultSkins:
 # Skins in this list will be disabled, so users can't set them.
 # Can be bypassed with 'skinsrestorer.bypassdisabled'.
 DisabledSkins:
-  Enabled: false
-  Names:
-    - "Steve"
-    - "Owner"
+  Enabled: true
+  Names: ["Jhelaii"]
 
 # Custom list for the /skins GUI.
 # ShowOnlyCustomGUI will only show CustomGUI.Names in the gui.
@@ -117,7 +114,7 @@ NoSkinIfLoginCanceled: true
 
 # When enabled, Only websites from the list below is allowed to be set using /skin url <url>
 RestrictSkinUrls:
-  Enabled: false
+  Enabled: true
   List:
     - https://i.imgur.com
     - http://i.imgur.com
@@ -140,14 +137,17 @@ MineskinAPIKey: "key"
 # If we break things, you can disable it here.
 
 # Dismounts a mounted (on a horse, or sitting) player when their skin is updated, preventing players from becoming desynced.
+# File override = ./plugins/SkinsRestorer/disableDismountPlayer.txt
 DismountPlayerOnSkinUpdate: true
 
 # Remounts a player that was dismounted after a skin update (above option must be true).
 # Disabling this is only recommended if you use plugins that allow you ride other players, or use sit. Otherwise you could get errors or players could be kicked for flying.
+# File override = ./plugins/SkinsRestorer/disableRemountPlayer.txt
 RemountPlayerOnSkinUpdate: true
 
 # Dismounts all passengers mounting a player (such as plugins that let you ride another player), preventing those players from becoming desynced.
-DismountPassengersOnSkinUpdate: false
+# File override = ./plugins/SkinsRestorer/enableDismountEntities.txt
+DismountPassengersOnSkinUpdate: true
 
 ###############
 # Danger Zone #
@@ -163,6 +163,11 @@ DisableOnJoinSkins: false
 # <!! Warning !!>
 # Enable this will require players to run "/skin update" to update their skin.
 DisallowAutoUpdateSkin: false
+
+# <!! Warning Experimental !!>
+# This enables the experimental ProtocolLib integration that allows instant skins on join.
+# Use with caution! This may decrease your TPS.
+EnableProtocolListener: false
 
 # Updater Settings
 Updater:
@@ -198,6 +203,6 @@ Debug: false
 # Website: https://skinsrestorer.net/
 # Download: https://github.com/SkinsRestorer/SkinsRestorerX/releases
 # Wiki https://github.com/SkinsRestorer/SkinsRestorerX/wiki/
-# spigot: https://www.spigotmc.org/resources/skinsrestorer.2124/
-# github: https://github.com/SkinsRestorer/SkinsRestorerX/
-# discord: https://discord.me/SkinsRestorer/
+# Spigot: https://www.spigotmc.org/resources/skinsrestorer.2124/
+# Github: https://github.com/SkinsRestorer/SkinsRestorerX/
+# Discord: https://discord.me/SkinsRestorer/

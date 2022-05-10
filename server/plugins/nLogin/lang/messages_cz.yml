@@ -1,0 +1,477 @@
+#          __             _
+#  _ __   / /  ___   __ _(_)_ __
+# | '_ \ / /  / _ \ / _` | | '_ \
+# | | | / /__| (_) | (_| | | | | |
+# |_| |_\____/\___/ \__, |_|_| |_|
+#                   |___/
+
+# Official Website: https://www.nickuc.com
+# Discord: https://www.nickuc.com/discord
+
+# Translation made by DarkmayGOD
+
+Messages:
+  Title:
+    before-login:
+      title: "&a&lVÍTEJTE!"
+      subtitle: "&7Použijte: /login <Vaše heslo>"
+      delays:
+        start: 2
+        duration: 7000
+        end: 3
+    before-register:
+      title: "&a&lVÍTEJTE!"
+      subtitle: "&7Použijte: /register <Vaše heslo> <Vaše heslo>"
+      delays:
+        start: 2
+        duration: 7000
+        end: 3
+    after-login:
+      title: "Užijte si hru!"
+      subtitle: "&aÚspěšně přihlášen!"
+      delays:
+        start: 2
+        duration: 60
+        end: 5
+    after-register:
+      title: ""
+      subtitle: "&aÚspěšně Zaregistrován!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    incorrect-password:
+      title: ""
+      subtitle: "&cNesprávné heslo!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    already-login:
+      title: ""
+      subtitle: "&cUž jste přihlášen!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    already-registered:
+      title: ""
+      subtitle: "&cUž jste zaregistrován!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    passwords-dont-match:
+      title: ""
+      subtitle: "&cHesla nejsou totožná!"
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    session-login:
+      title: ""
+      subtitle: "&e Vaše přihlašovací relace pokračuje."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    premium-login:
+      title: ""
+      subtitle: "&e Váš účet je unikátní, úspešný přihlášení."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    plugin-reload:
+      title: ""
+      subtitle: "&aKonfigurace a jazykové soubory byly resetovány a následně načteny."
+      delays:
+        start: 2
+        duration: 60
+        end: 6
+    backup:
+      title: ""
+      subtitle: "&aZálohování proběhlo úspěšně."
+      delays:
+        start: 2
+        duration: 90
+        end: 6
+    backup-error:
+      title: ""
+      subtitle: "&cNepovedeno provést zálohování."
+      delays:
+        start: 2
+        duration: 90
+        end: 6
+    security-warning:
+      title: ""
+      subtitle: "Nový oznámení bylo posláno do chatu."
+      delays:
+        start: 2
+        duration: 0
+        end: 0
+  action-bar:
+    singular: "&cMáte {0} sekund na {login/register}."
+    plural: "&cMáte {0} sekund na {login/register}."
+  delay-kick:
+    register-kick: "&cZabralo Vám moc dlouho provést register."
+    login-kick: "&cZabralo Vám moc dlouho provést přihlášení."
+  successful-operations:
+    password-changed: "&aYour password has been successfully changed."
+    successful-login: "&aYou have successfully logged."
+    successful-premium-login: "&aYou are automatically logged in as you are using an unique account."
+    successful-session-login: "&aYour login session has been continued."
+    successful-register: "&aYou have successfully registered."
+    forcelogin: "&eYou have forced the login of {0}"
+    unregister-kick: "&aYou have been successfully unregistered."
+    config-finished: "&aConfiguration finalized."
+    config-cancelled: "&cAction cancelled."
+  kick-messages:
+    nick-already-registered: "&cNemůžete se připojit se  přezdívkou {0}&r\n&r&cTahle přezdívka je už zaregistrovaná {1}&r\n&r\n&r&cPro vstup, musíte mít přezdívku bez speciálních znaků."
+    failed-many-times: "&cNapsal jste několikrát špatné heslo."
+    incorrect-password: "&cNesprávné heslo. Prosíme, zkuste to znova."
+    incorrect-answer: "&cŠpatná odpověd. Prosíme zkuste to znova."
+    wait-server-start: "&cServer se ještě spouští, vyčkejte na spuštění serveru.."
+    account-blocked: "&cVaše adresa byla zablokovaná za podezřivou činnost.&r\n&r&cZbývající čas trestu: {0}"
+    invalid-nickname: "&cVaše přezdívka je neplatná, vymažte mezery, symboly, a neplatné charaktery z Vašeho jména."
+    premium-account: "&cPromiňte, ale prémiový hráč je už přihlášen v tomhle účtě.&r\n&r&cJestli chcete zde hrát, Musíte použít jinou přezdívku.&r\n&r\nPokud jste majitel tohohle účtu, zkuste restartovat hru."
+  security-messages:
+    hacking-attack-warning:
+      - ""
+      - " &c&lZABEZPEČOVACÍ ZPRÁVA"
+      - " &cZabezpečovací systém zablokoval Váš učet z důvodu dost možného napadení účtu."
+      - " &cTři neuspěšné přihlašovací pokusy byly provedené."
+      - ""
+      - " &e&lTIP: &eZkuste použít hesla, které jste již nepoužily."
+      - ""
+    hacking-attack-warning2:
+      - ""
+      - " &c&lZABEZPEČOVACÍ ZPRÁVA"
+      - " &cZabezpečovací systém zablokoval {0} dost možné útoky na Váš účet."
+      - " &cTři neuspěšné přihlašovací pokusy byly provedené."
+      - ""
+      - " &e&lTIP: &eZkuste použít hesla, které jste již nepoužily."
+      - ""
+    weak-password:
+      - ""
+      - "&cRegistrované heslo je považováno za nezabezpečené."
+      - "&cPro zvýšení bezpečnosti používejte písmena, čísla a symboly."
+      - "&cPříklad hesla: {0}"
+      - ""
+    security-question-warn-message:
+      - ""
+      - " &c&lZABEZPEČOVACÍ OTÁZKY"
+      - " &7Napište příkaz &f/2fa squestion add &7to register your"
+      - " &czabezpečovací otázky&7. Tím že, vy"
+      - " &7snížite šanci být napaden nějakým útokem."
+      - ""
+    security-question-add:
+      - ""
+      - " &e{0}"
+      - ""
+      - " &7Napište &f'cancel' &7 pro zrušení operace."
+      - " &7Klikněte na tuhle zprávu, pro generaci jiné otázky."
+      - ""
+    security-question-check:
+      - ""
+      - " &aPřed potvrzením, si přečtěte pár informací:"
+      - ""
+      - " &7{0}: &f'{1}'"
+      - ""
+      - " &aPokud jste si jistí, napište &f'confirm'&a."
+      - " &ePokud jste napsali něco špatně, napište &f'repeat'&e."
+      - " &cPokud chcete zrušit tuhle operaci, napište &f'cancel'&c."
+      - ""
+    security-question-request:
+      - ""
+      - " &aPromiňte, ale potvrzení identity je vyžádáno."
+      - " &aNapište odpověď na otázku dole v chatu:"
+      - ""
+      - " &b{0}"
+      - ""
+    security-question-request2:
+      - "&aDalší otázka..."
+      - ""
+      - " &b{0}"
+      - ""
+  notifications:
+    all-viewed: "&aVšechny notifikace byly zobrazeny."
+    notify-after: "&eTato notifikace bude znova poslána za {0} minut."
+    notify-buttons: "[&aPotvrdit přečtení//&8Upozornit mě později]"
+    notify-buttons-hover: "[&7Klikni pro označení této notifikace jako přečnená.//&7Klikni pro zobrazení notifikace později.]"
+  error-messages:
+    already-login: "&cUž jste prihlasen."
+    already-login2: "&cTenhle hráč už je přihlášen."
+    already-registered: "&cTahle přezdívka už byla zaregistrována."
+    not-registered: "&cTahle přezdívka nebyla ještě zaregistrována."
+    no-temporary-code: "&cVaše dočastné heslo ještě nebylo generováno."
+    incorrect-code: "&cNesprávné heslo, prosíme, zkuste to znova."
+    passwords-dont-match: "&cHesla nejsou totožná."
+    need-password-confirmation: "&cMusíte potvrdit svoje heslo."
+    address-limiter-warning: "&cDosáhl jste svých limitů IP adresy."
+    rate-limit: "&cLimit exceeded. Please wait {0} minutes to try again."
+    password-same-as-old: "&cHeslo je stejné jako Vaše aktuální heslo."
+    password-too-large: "&cHeslo je moc dlouhé."
+    password-too-small: "&cHeslo je moc krátké."
+    plugman-block: "&cNemůžete sahat na tenhle plugin zde. "
+    insufficient-permissions: "&cNemáte permise spustit tenhle příkaz!"
+    command-usage: "&cMusíte použít {0}."
+    already-online: "&cTenhle hráč už je aktivní."
+    offline-error: "&cŽádoucí hráč je nedostupný."
+    player-command-usage: "&cTenhle příkaz byl vypnut přes konzoli."
+    console-command-usage: "&cTenhle příkaz může být spuštěn jenom přes konzoli."
+    plugin-reload-message: "&ePlugin byl úspěšné restartován, a znovu načten."
+    command-function-disabled: "&cFunkce příkazu {0} je vypnuta."
+    database-error: "&cPromiňte, nemůžete provést tuhle operaci. Prosím zkuste znovu [SELHÁNÍ SQL]"
+  twofactor:
+    no-twofactor-registered: "&cNemáte {0} učtů."
+    twofactor-already-registered: "&cUž máte zaregistrováno {0}."
+    twofactor-register-limit: "&cVyčerpali jste limity účtů se stejným {0}."
+    twofactor-unregistered: "&eTvůj {0} byl úspěšně odpojen."
+    confirmed-account: "&atvůj {0} byl úspěšně zaregistrován."
+    confirmation-message-sent: "&7Váš konfirmační kód byl odeslán na &6{0}&7.\n&8(&f{1}&8)."
+    check-message: "&aPřečtěte si zprávu poslanou do Vašeho účtu."
+    command-delay: "&cChvíli počkejte než použijete tento příkaz znovu."
+    help-command:
+      - ""
+      - " &fStatus: [&a{2} registrováno//&c{2} neregistrováno]&f."
+      - ""
+      - " [&a■ &7/{0} add: &fRegister your {1}.]"
+      - " [&a■ &7/{0} remove: &fRemove your {1}.]"
+      - " [&a■ &7/{0} recover: &fRecover your account.]"
+      - " [&a■ &7/{0} twofactor: &fEnables/disables the two-factor.]"
+      - ""
+    switch:
+      enabled: "&aByla aktivována Two-Factor funkce."
+      disabled: "&cByla deaktivována Two-Factor funkce."
+    recover:
+      twofactor-not-equal: "&c{0} není stejný jako registrovaný."
+      message-sent: "&aNa váš přidružený účet byla odeslána zpráva pro obnovení."
+      automatic-change: "&aVaše heslo bylo automaticky změněno na &f'{0}'&a."
+    security-questions:
+      no-question-registered: "&cNemáte žádný zaregistrovaný zabezpečovací otázky."
+      invalid-question-id: "&cZadaný ID není platné, nebo je menší než nula."
+      question-does-not-exists: "&cOtázka s ID {0} neexistuje."
+      question-deleted: "&aOtázka s ID {0} byla úspěšně odstraněna. "
+      max-questions: "&cDosáhl jste maximální počet otázek povolených na tomhle serveru. "
+      min-questions-recover: "&cPotřebujete mít min. 3 otázky zaregistrované pro zabezpečení tohohle účtu."
+      help-command:
+        - ""
+        - " &fStatus: [&cŽádné registrované otázky//&a{1} otázky registrované//&a{1} otázky zaregistrované]&f."
+        - ""
+        - " [&a■ &7/{0} add: &fRegister a question.]"
+        - " [&a■ &7/{0} remove <id>: &fRemoves a question.]"
+        - " [&a■ &7/{0} list: &fLists your questions.]"
+        - " [&a■ &7/{0} recover: &fRecovers your account.]"
+        - ""
+    discord:
+      confirm-account:
+        - ""
+        - " &7Pro dokončení  propojení, potřebujete potvrdit Váš Discord účet."
+        - " &7Pripojte se do &b{0} &7a napište "
+        - " &7Prikaz v DM z &f{1} &7bota."
+        - ""
+        - " [&aKlikněte zde aby jste získali příkaz s tokenem.]"
+        - ""
+      account-linked: "&aKonfigurace Discordu byla úspěšné aktualizovaná. \n&abyly propojeny s &f{0} &aútem."
+      verify-message:
+        title: "Vaše heslo bylo vytvořeno."
+        description: "nLogin systém, vygeneroval potvrzovací heslo pro @player účet."
+        image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+        fields:
+          - "Pro příkaz->Na příhlášení, použijte příkaz '/2fa discord @kód'."
+      recover-message:
+        title: "Nahrazení hesla bylo vyžádano."
+        description: "Nahrazení hesla, bylo vyžádáno pro @player.\nPokud jste to nebyl vy, kliknete na X reakci, pro zablokovani pristupu."
+        image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+        fields:
+          - "Problémy?-> V případě problému, použijte příkaz '/2fa discord <nové heslo> @kód'."
+      suspect-access:
+        title: "Podezřivá aktivita na @player účtě."
+        description: "Podezřivý přihlašení bylo detekováno na @player account. "
+        image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+        fields:
+          - "Přístup dat> Pokusu dat: @data @hora"
+          - "Přístupové informace-> Přístupové informace: IP Adresa: @address "
+          - "Možné že \"vetřelec\" byl zabanován-> IP adresa na tomhle účtě byla dost možně zablokovaná, kvůli důvodu podezření na invazi účtu."
+      warn-message:
+        - ""
+        - " &7Spusťe příkaz &f/2fa discord associate &7 pro registraci."
+        - " &7Váš &cdiscord&7. Tím že, vy"
+        - " &7snížíte šanci být napaden."
+        - ""
+      sync-message:
+        invalid-code:
+          title: "***Zaregistrujte svůj Discord***"
+          description: "Promiňte, ale token který jste zadal je invalidní, nebo neexistuje. "
+          image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+          fields: []
+        success:
+          title: "***Zaregistrujte svůj Discord***"
+          description: "Váš Discord byl úspěšně zaregistrován."
+          image: "https://www.nickuc.com/app/content/assets/img/2fa-lock-default.png"
+          fields: []
+      change-address:
+        - ""
+        - "&aPromiňte, ale potvrzení Vaší identiny je vyžadováno."
+        - "&aNa váš registrovaný nesouhlas byl zaslán bezpečnostní kód."
+        - "&aPoužijte příkaz /2fa discord <sent code> pro authentikaci Vás."
+        - "&aPokud zadáte heslo špatně nebo se odhlásíte, bude vygenerován nový kód."
+        - ""
+    twitter:
+      invalid-account: "&cZadaný twitter je neplatný. "
+      server-twitter: "&cNemůžete použít twitter server."
+      configure-message:
+        - "nLogin system vygeneroval dočasné heslo pro @player účet."
+        - ""
+        - "Pro potvrzení Vašeho účtu, použijte příkaz '/2fa twitter @code'"
+        - "Pokud jste to nebyl vy, ignorujte tuhle zprávu."
+      verify-message:
+        - "nLogin system vygeneroval potvrzovací heslo pro účet @player. "
+        - ""
+        - "Pro authentikaci, použijte příkaz '/2fa twitter @code' To authenticate, use the '/2fa twitter @code' command."
+        - "Pokud jste to nebyl vy, změnte vaše heslo HNEDKA. "
+      recover-message:
+        - "Pro obnovu Vašeho účtu, použijte příkaz /2fa twitter <nové heslo> @code "
+        - ""
+        - "Pokud jste to nebyl vy, ignorujte tuhle zprávu. "
+      suspect-access:
+        - "nLogin system detekoval podezřivou aktivitu na @player účtě."
+        - ""
+        - " Pokusů dat: @data @hora"
+        - ""
+        - "IP adressa byla dočasně zablokovaná z důvodu podezřivé činnosti."
+      warn-message:
+        - ""
+        - " &7Spusťe příkaz &f/2fa twitter associate &7pro zaregistrování."
+        - " &7Váš &ctwitter&7. Tím, že Vy"
+        - " &7 Zmenšíte šanci na to, být napaden."
+        - ""
+      change-address:
+        - ""
+        - "&aPromiňte, ale potvrzení identiny je vyžadováno."
+        - "&aZabezpečovací kód byl poslán na Váš Twitter účet."
+        - "&aPoužijte /2fa twitter command <poslat kód> pro přihlášení."
+        - "&aPokud zadáte heslo špatně nebo se odhlásíte, bude vygenerován nový kód."
+        - ""
+        - "&7Nezapomeňte sledovat & f@twitter_sv & 7no twitter."
+        - ""
+    email:
+      invalid-account: "&cZadaný email je neplatný."
+      server-email: "&cNemůžete použít tenhle server emailu."
+      configure-message:
+        subject: "Potvrzení účtu @player"
+        content:
+          - "<h1>"
+          - " Zdravím, @player!"
+          - "</h1>"
+          - "<p>"
+          - " Pro kompletní registrační proces, použijte <strong>\"/2fa email @code\"</strong> ."
+          - "</p>"
+          - "<p>"
+          - " If it wasn't you, ignore this message."
+          - "</p>"
+      verify-message:
+        subject: "Potvrzení přihlášení na účet @player"
+        content:
+          - "<h1>"
+          - " Zdravím, @player!"
+          - "</h1>"
+          - "<p>"
+          - " Pro přihlášení na server, použijte příkaz <strong>\"/2fa email @code\"</strong>."
+          - "</p>"
+          - "<p>"
+          - " Pokud by jste to nebyl vy, změnte heslo <strong>HNEDKA</strong>."
+          - "</p>"
+      recover-message:
+        subject: "Vrácení účtu @player"
+        content:
+          - "<h1>"
+          - " Zdravím, @player!"
+          - "</h1>"
+          - "<p>"
+          - " Pro nahrazení / vrácení Vašeho účtu, použijte příkaz <strong>\"/2fa email <nové heslo> @code\"</strong>. "
+          - "</p>"
+          - "<p>"
+          - " Pokud jste to nebyl vy, ignorujte tuhle zprávu."
+          - "</p>"
+      suspect-access:
+        subject: "Podezřilá aktivita na  @player účtě"
+        content:
+          - "<h1>"
+          - " Zdravím, @player!"
+          - "</h1>"
+          - "<p>"
+          - " nLogin system detekoval podezřilou aktivitu na Vašem účtu."
+          - "</p>"
+          - "<p>"
+          - "<strong> Datový pokusy:</strong> @data @hora"
+          - "</p>"
+          - "<p>"
+          - "IP adressa byla dočasně zablokovaná kvůli podezřivé aktivitě invaze."
+          - "</p>"
+      warn-message:
+        - ""
+        - " &7Spusťte příkaz &f/2fa email associate &7pro zaregistrování"
+        - " &7Váš &9email&7. Tím, že vy"
+        - " &7Snížíte šanci na to, být napaden."
+        - ""
+      require-email:
+        - ""
+        - " &7Aktuální server vyžaduje zadání platného"
+        - " &ae-mailu &7pro dokončení ověření."
+        - ""
+        - " &aZadejte prosím svůj email do chatu."
+        - ""
+      change-address:
+        - ""
+        - "&aPromiňte, ale potvrzení identiny je vyžadováno."
+        - "&aBezpečnostní kód byl poslán na Váší registrovanou emailovou adresu. "
+        - "&aPoužijte příkaz /2fa email <posleste kod> pro authentikaci. "
+        - "&aPokud  Pokud zadáte heslo špatně nebo se odhlásíte, bude vygenerován nový kód."
+        - ""
+  premium-login:
+    question:
+      - ""
+      - " &ePoužíváte prémiový účet?"
+      - " &7(Po přijmutí, se budete se muset připojit a odpojit. )"
+      - ""
+      - "[&aAno//&cNe]"
+      - ""
+    already-premium: "&cVáš účet je označen jako premium. "
+    challenge-kick: "&7Pro potvrzení že používáte &apremium účet&7, se přihlaste znova."
+  bedrock:
+    forms:
+      login:
+        title: "Authentication"
+        content:
+          - "Welcome, @player!"
+          - "To log in, please enter your password in the field below:"
+          - ""
+          - "[Password//Enter your password]"
+          - ""
+      register:
+        title: "Register"
+        content:
+          - "Welcome, @player!"
+          - "To play on the server, you need to create a password."
+          - "Please enter the desired password in the field below."
+          - ""
+          - "[Password//Enter your password]"
+          - "[Confirmation//Confirm your password]"
+          - ""
+  other-messages:
+    hover-message-login: "&7Klikněte zde pro kompletní příkaz a přihlaste se rychleji."
+    hover-message-register: "&7Klikněte zde pro kompletnost příkazu a zaregistrování rychleji."
+    message-login: "&ePoužijte příkaz &7/login <heslo>&e."
+    message-register: "&ePoužijte příkaz &7/register <heslo> <heslo>&e. "
+    message-changepassword: "&ePoužijte příkaz &7/changepassword <momentální heslo> <nové heslo>&e."
+    message-unregister: "&ePoužijte příkaz &7/unregister <momentální heslo>&e."
+    language-selector:
+      - ""
+      - " &7We have detected that you are using the language &f{0}&7."
+      - ""
+      - " &eDo you want to change the nLogin language?"
+      - ""
+      - "[&aYes//&cNo]"
+      - ""

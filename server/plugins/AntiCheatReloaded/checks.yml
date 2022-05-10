@@ -417,3 +417,4 @@ commandspam:
   levelActionOne: 5
   # Number of command spam violations before action two (see config.yml) is executed
   levelActionTwo: 10
+

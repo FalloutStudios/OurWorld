@@ -10,91 +10,57 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
-    parkour2:
-        parent: parkour
-        min: {x: 245, y: 66, z: 800}
-        max: {x: 260, y: 118, z: 817}
-        members: {}
-        flags: {}
-        owners: {}
-        type: cuboid
-        priority: 0
     spawn:
-        min: {x: 110, y: 3, z: 737}
-        max: {x: 299, y: 260, z: 945}
+        min: {x: 52, y: 1, z: 107}
+        max: {x: 337, y: 121, z: 341}
         members: {}
         flags:
             other-explosion: deny
+            blocked-effects: [SPEED, JUMP, INVISIBILITY]
             lava-fire: deny
+            respawn-location: {world: world, x: 223.58749715370274, y: 71.0625, z: 241.57087765431552,
+                pitch: 2.3999722, yaw: 0.60076904}
+            ice-melt: deny
             block-trampling: deny
-            vehicle-destroy: deny
-            chest-access: allow
-            chunk-unload: deny
+            leaf-decay: deny
             firework-damage: deny
+            chunk-unload: deny
+            weather-lock: clear
             fire-spread: deny
+            crawl: deny
             enderdragon-block-damage: deny
             sleep: deny
-            vehicle-place: deny
+            coral-fade: deny
             snowman-trails: deny
             keep-inventory: true
             passthrough: deny
-            block-break: deny
             keep-exp: true
             entity-painting-destroy: deny
             ravager-grief: deny
+            mythicmobs-eggs: deny
+            lightning: deny
             wither-damage: deny
             chorus-fruit-teleport: deny
-            lighter: deny
+            pose: deny
             enderman-grief: deny
+            pistons: deny
             pvp: deny
             mob-spawning: deny
-            chat-prefix: '§7[§6Spawn§7] '
-            block-place: deny
+            frostwalker: deny
             enderpearl: deny
-            fly: deny
+            soil-dry: deny
             creeper-explosion: deny
             vine-growth: deny
-            build: deny
+            game-mode: adventure
             fall-damage: deny
-            blocked-cmds: [/sethome, /tpahere]
-            item-frame-rotation: deny
             item-durability: deny
-            tnt: deny
+            item-frame-rotation: deny
+            snow-melt: deny
+            frosted-ice-melt: deny
             glide: DENY
+            tnt: deny
             entity-item-frame-destroy: deny
             ghast-fireball: deny
         owners: {}
         type: cuboid
-        priority: 1
-    nogrief:
-        min: {x: 0, y: 16, z: 577}
-        max: {x: 479, y: 141, z: 1039}
-        members: {}
-        flags: {other-explosion: deny, wither-damage: deny, creeper-explosion: deny,
-            lava-fire: deny, passthrough: allow, enderman-grief: deny, tnt: deny,
-            ghast-fireball: deny, fire-spread: deny, enderdragon-block-damage: deny}
-        owners: {}
-        type: cuboid
-        priority: 0
-    noice:
-        min: {x: 1009, y: 46, z: 2340}
-        max: {x: 1080, y: 280, z: 2397}
-        members: {}
-        flags: {}
-        owners: {}
-        type: cuboid
-        priority: 0
-    parkour:
-        min: {x: 191, y: 69, z: 828}
-        max: {x: 226, y: 114, z: 864}
-        members: {}
-        flags: {game-mode: adventure}
-        owners: {}
-        type: cuboid
-        priority: 0
-    __global__:
-        members: {}
-        flags: {creeper-explosion: allow, game-mode: survival}
-        owners: {}
-        type: global
         priority: 0

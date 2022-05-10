@@ -104,8 +104,8 @@ mobs:
     block-above-ground-slimes: false
     block-other-explosions: false
     block-zombie-door-destruction: false
-    block-creature-spawn: []
     block-vehicle-entry: false
+    block-creature-spawn: []
 player-damage:
     disable-fall-damage: false
     disable-lava-damage: false
@@ -170,3 +170,5 @@ blacklist:
             path: worldguard/logs/%Y-%m-%d.log
             open-files: 10
 custom-metrics-charts: true
+extra-timings:
+    session-handlers: true

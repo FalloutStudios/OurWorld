@@ -1,4 +1,3 @@
-# Edited by: FalloutStudios
 General:
   Prefix: "&b&lOur World &7&l>"
   NoPerms: "&cYou don't have perms for that!"
@@ -24,7 +23,7 @@ Ban:
   - "&c&lUnban in &r&7> &b%DURATION%"
   - '&7'
   - '&7Unban application in Discord'
-  - "&b&lDiscord &r&7> &ahttps://discord.gg/VwrC2Zcc3e"
+  - "&b&lDiscord &r&7> &ahttps://discord.gg/ZFneUZAjf3"
   Notification:
   - "&c&o%NAME% &7got banned by &e&o%OPERATOR%"
   - "&7For the reason &o%REASON%"
@@ -40,7 +39,7 @@ Ipban:
   - "&c&lUnban in &r&7> &b%DURATION%"
   - '&7'
   - '&7Unban application in Discord'
-  - "&b&lDiscord &r&7> &ahttps://discord.gg/VwrC2Zcc3e"
+  - "&b&lDiscord &r&7> &ahttps://discord.gg/ZFneUZAjf3"
   Notification:
   - "&c&o%NAME% &7got IP banned by &e&o%OPERATOR%"
   - "&7For the reason &o%REASON%"
@@ -57,7 +56,7 @@ Tempban:
   - "&c&lUnban in &r&7> &b%DURATION%"
   - '&7'
   - '&7Unban application in Discord'
-  - "&b&lDiscord &r&7> &ahttps://discord.gg/VwrC2Zcc3e"
+  - "&b&lDiscord &r&7> &ahttps://discord.gg/ZFneUZAjf3"
   Notification:
   - "&c&o%NAME% &7got temporarily banned by &e&o%OPERATOR%"
   - "&7For the reason &o%REASON%"
@@ -74,7 +73,7 @@ Tempipban:
   - "&c&lUnban in &r&7> &b%DURATION%"
   - '&7'
   - '&7Unban application in Discord'
-  - "&b&lDiscord &r&7> &ahttps://discord.gg/VwrC2Zcc3e"
+  - "&b&lDiscord &r&7> &ahttps://discord.gg/ZFneUZAjf3"
   Notification:
   - "&c&o%NAME% &7got temporarily IP banned by &e&o%OPERATOR%"
   - "&7For the reason &o%REASON%"

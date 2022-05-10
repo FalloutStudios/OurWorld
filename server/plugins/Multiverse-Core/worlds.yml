@@ -1,16 +1,15 @@
-# Edited by: FalloutStudios
 worlds:
   world:
     ==: MVWorld
     hidden: 'false'
-    alias: world
+    alias: ''
     color: WHITE
     style: NORMAL
     pvp: 'true'
     scale: '1.0'
-    respawnWorld: ''
+    respawnWorld: world
     allowWeather: 'true'
-    difficulty: EASY
+    difficulty: HARD
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -34,30 +33,30 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 208.392787362332
-      y: 72.0
-      z: 844.4015103681845
-      pitch: 4.950055
-      yaw: 2.5499358
+      x: 224.0
+      y: 71.0
+      z: 240.0
+      pitch: 0.0
+      yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '-7791980121763674565'
+    seed: '-3111903664683329599'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
   world_the_end:
     ==: MVWorld
     hidden: 'false'
-    alias: world_the_end
+    alias: ''
     color: WHITE
     style: NORMAL
     pvp: 'true'
     scale: '16.0'
     respawnWorld: world
     allowWeather: 'true'
-    difficulty: NORMAL
+    difficulty: HARD
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -81,16 +80,16 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 18.5
-      y: 61.0
-      z: 40.5
+      x: 0.0
+      y: 59.0
+      z: 0.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: THE_END
-    seed: '-5040851804384062303'
+    seed: '-3111903664683329599'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -104,7 +103,7 @@ worlds:
     scale: '8.0'
     respawnWorld: world
     allowWeather: 'true'
-    difficulty: NORMAL
+    difficulty: HARD
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -128,16 +127,16 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: -3.5
-      y: 62.0
-      z: 4.5
+      x: 27.0
+      y: 33.0
+      z: 15.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NETHER
-    seed: '-5040851804384062303'
+    seed: '-3111903664683329599'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
