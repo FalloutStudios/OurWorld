@@ -1,0 +1,9 @@
+backupFolder: backups
+backupInterval: 24h
+backupLimit: 5
+ignoredRootFiles:
+  - .*
+  - LICENSE
+  - package.json
+  - yarn.lock
+  - node_modules

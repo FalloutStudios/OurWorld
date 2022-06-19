@@ -1,0 +1,6 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "@ghextercortes/zip-backup": "^1.0.0"
+  }
+}

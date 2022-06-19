@@ -50,3 +50,6 @@ server/new_world**
 
 /proxy
 *world.zip
+
+node_modules
+backups
