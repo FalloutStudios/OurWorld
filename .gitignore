@@ -47,3 +47,6 @@ server/plugins/Vulcan
 server/plugins/BungeeGuard
 server/plugins/IllegalStack/OffenseLog.txt
 server/new_world**
+
+/proxy
+*world.zip
