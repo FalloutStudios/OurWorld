@@ -2,11 +2,11 @@
 # Need help? Join our Discord, https://discordsrv.com/discord
 
 # Don't touch pls
-ConfigVersion: 1.24.0
+ConfigVersion: 1.25.1
 
 # Bot token; don't know what this is? Look at the video on the plugin page for instructions
 # You must restart your server after changing this option
-BotToken: ""
+BotToken: TOKEN
 
 # Channel links from game to Discord
 # syntax is Channels: {"in-game channel name from Minecraft": "numerical channel ID from Discord", "another in-game channel name from Minecraft": "another numerical channel ID from Discord"}
@@ -25,7 +25,7 @@ BotToken: ""
 # for /discord broadcast: broadcasts (unless specified in the command)
 #
 # The first part of channel pairs is not the Discord channel name!
-# You must restart your server after changing this option
+# Run "/discord reload" after changing this option to apply
 Channels: {"global": "946044380920295444"}
 
 # Console channel numerical ID (NOT NAME), leave blank to disable the console channel all together
@@ -63,7 +63,7 @@ DiscordInviteLink: "https://discord.gg/ZFneUZAjf3"
 Debug: []
 
 # Legacy option for transitioning to the new Debug option,
-# setting this to anything above 1 is the same as setting Debug to [ALL]
+# setting this to anything above 0 is the same as setting Debug to [ALL]
 DebugLevel: 0
 
 # Experiments
@@ -85,7 +85,7 @@ Experiment_WebhookChatMessageAvatarFromDiscord: false
 # Embed & webhook image/avatar url format
 # Alternative embed avatar url for offline servers:
 # https://cravatar.eu/helmavatar/{username}/{size}.png#{texture}
-AvatarUrl: https://www.ourmcworld.ml/index.php?avatar={username}
+AvatarUrl: 'http://147.185.221.212:12436/skin/api/head/{username}'
 
 # Reserializer
 # Converts formatting (bold, italics, underline, strikethrough) between Minecraft and Discord
@@ -95,6 +95,10 @@ Experiment_MCDiscordReserializer_InBroadcast: true
 
 # Other
 CancelConsoleCommandIfLoggingFailed: true
+# LunarClient does not support copy_to_clipboard click components in messages. Users of LunarClient will receive an automated
+# message stating that their user experience is worsened by the use of the client, if this option is enabled
+# See https://github.com/DiscordSRV/DiscordSRV/pull/1294 for more details
+EnableIncompatibleClientAlert: true
 ForcedLanguage: none
 PrintGuildsAndChannels: true
 ForceTLSv12: true
@@ -102,8 +106,10 @@ NoopHostnameVerifier: false
 MaximumAttemptsForSystemDNSBeforeUsingFallbackDNS: 3
 TimestampFormat: EEE, d. MMM yyyy HH:mm:ss z
 DateFormat: yyyy-MM-dd
-# https://github.com/DiscordSRV/DiscordSRV/wiki/config#Timezone
+# https://docs.discordsrv.com/config/#Timezone
 Timezone: default
+# MinecraftMentionSound: Whether a sound should be sent to the player in Minecraft when they are mentioned from Discord
+MinecraftMentionSound: true
 
 # Plugin hooks
 # You must restart your server after changing these options
@@ -124,8 +130,10 @@ UseModernPaperChatEvent: false
 # PlaceholderAPI placeholders are supported
 #
 # DiscordGameStatus: Text to display. Can be a single value e.g. "Minecraft", or multiple values e.g. ["Minecraft", "yourip.changeme.com"]
+# DiscordOnlineStatus: Activity status to display. This must be one of the following: ONLINE, DND, IDLE or INVISIBLE
 # StatusUpdateRateInMinutes: How frequently to cycle the status
 DiscordGameStatus: "play.ourmcworld.ml"
+DiscordOnlineStatus: ONLINE
 StatusUpdateRateInMinutes: 2
 
 # Chat channel information
@@ -140,11 +148,14 @@ StatusUpdateRateInMinutes: 2
 # DiscordChatChannelEmojiBehavior: how emojis should be sent to Minecraft. Can be "show", "name" or "hide"
 # DiscordChatChannelEmoteBehavior: how emotes should be sent to Minecraft. Can be "name" or "hide"
 # DiscordChatChannelPrefixRequiredToProcessMessage: the character(s) required to prefix a message for it to be sent from Minecraft to Discord (example "!")
+# DiscordChatChannelPrefixActsAsBlacklist: Whether or not the prefix should act as a blacklist
 # DiscordChatChannelRolesAllowedToUseColorCodesInChat: list of roles allowed to use color/format codes in Discord to Minecraft chat
 # DiscordChatChannelBroadcastDiscordMessagesToConsole: whether or not to print processed discord messages to the console
 # DiscordChatChannelRequireLinkedAccount: whether or not to require players have their Discord account linked to their Minecraft to have their Discord messages sent to Minecraft
 # DiscordChatChannelBlockBots: whether or not bots should be blocked from Discord -> MC chat
 # DiscordChatChannelBlockedIds: ids of discord users (or bots) that should not have their messages processed & sent to MC
+# DiscordChatChannelBlockedRolesAsWhitelist: if the following list should be treated as a whitelist (true) or a blacklist (false)
+# DiscordChatChannelBlockedRolesIds: ids of discord roles that should not have their messages processed & sent to MC
 # DiscordChatChannelRolesSelectionAsWhitelist: if the following list should be treated as a whitelist (true) or a blacklist (false)
 # DiscordChatChannelRolesSelection: list of roles that should be filtered from all of a user's roles
 # DiscordChatChannelRoleAliases: list of role aliases (alternate names for roles to use in Minecraft messages)
@@ -157,11 +168,14 @@ DiscordChatChannelAllowedMentions: [user, channel, emote]
 DiscordChatChannelEmojiBehavior: "name"
 DiscordChatChannelEmoteBehavior: "name"
 DiscordChatChannelPrefixRequiredToProcessMessage: ""
+DiscordChatChannelPrefixActsAsBlacklist: false
 DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["Admins"]
 DiscordChatChannelBroadcastDiscordMessagesToConsole: true
 DiscordChatChannelRequireLinkedAccount: false
 DiscordChatChannelBlockBots: false
 DiscordChatChannelBlockedIds: ["000000000000000000", "000000000000000000", "000000000000000000"]
+DiscordChatChannelBlockedRolesAsWhitelist: false
+DiscordChatChannelBlockedRolesIds: ["000000000000000000", "000000000000000000", "000000000000000000"]
 DiscordChatChannelRolesSelectionAsWhitelist: false
 DiscordChatChannelRolesSelection: ["Don't show me!", "Misc role"]
 DiscordChatChannelRoleAliases: {"Developers": "Dev", "Admins": "Admin", "Moderators": "Mod"}
@@ -181,7 +195,9 @@ DiscordChatChannelRoleAliases: {"Developers": "Dev", "Admins": "Admin", "Moderat
 # DiscordConsoleChannelBlacklistedCommands: phrases wrapped in quotation marks that users should not be able to send as commands to the console
 # DiscordConsoleChannelFilters: regex filters to be applied to console lines being sent to Discord, if the result is empty the message won't be sent at all
 # DiscordConsoleChannelLevels: levels to send to console channel via appender
+# DiscordConsoleChannelUseCodeBlocks: if the console should be wrapped in code blocks and colored
 # DiscordConsoleChannelAllowPluginUpload: should uploading plugins to the console channel add them to the server automatically
+# DiscordConsoleChannelBlockBots: whether bots should be allowed to send commands in the console channel
 #
 DiscordConsoleChannelLogRefreshRateInSeconds: 5
 DiscordConsoleChannelUsageLog: "Console-%date%.log"
@@ -189,7 +205,9 @@ DiscordConsoleChannelBlacklistActsAsWhitelist: false
 DiscordConsoleChannelBlacklistedCommands: ["kill"]
 DiscordConsoleChannelFilters: {".*(?i)async chat thread.*": "", ".*There are \\d+ (?:of a max of|out of maximum) \\d+ players online.*": ""}
 DiscordConsoleChannelLevels: [info, warn, error]
+DiscordConsoleChannelUseCodeBlocks: false
 DiscordConsoleChannelAllowPluginUpload: false
+DiscordConsoleChannelBlockBots: false
 
 # Chat channel command execute command
 # These options control the ability to say "!c kick Notch", or whatever the prefix is to run a command,
@@ -252,7 +270,7 @@ ChannelTopicUpdaterRateInMinutes: 10
 # If you do not want any canned responses, set this to just {}
 # PlaceholderAPI placeholders are supported for the values
 #
-DiscordCannedResponses: {"!ip": "Test Server\n```\ntest.ourmcworld.ml\n```"}
+DiscordCannedResponses: {}
 
 # Minecraft to Discord account linking
 # These are the options pertaining to how linking a Minecraft account to a Discord account functions
@@ -268,7 +286,7 @@ DiscordCannedResponses: {"!ip": "Test Server\n```\ntest.ourmcworld.ml\n```"}
 # %discordname%:         linked discord account's username
 #                         example: Notch
 #
-# MinecraftDiscordAccountLinkedRoleNameToAddUserTo: the name of a discord role to add a discord user to when they link their account
+# MinecraftDiscordAccountLinkedRoleNameToAddUserTo: the name or id of a discord role to add a discord user to when they link their account
 # MinecraftDiscordAccountLinkedAllowRelinkBySendingANewCode: allows sending a new code to the bot to unlink and relink with the new code
 #
 MinecraftDiscordAccountLinkedConsoleCommands: ["", "", ""]

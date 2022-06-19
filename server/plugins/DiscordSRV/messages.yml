@@ -45,8 +45,8 @@
 #
 # NOTE: The %reply% placeholder needs to be present in the format if you want the DiscordToMinecraftMessageReplyFormat to display in your message.
 #
-DiscordToMinecraftChatMessageFormat: "&#5f26d8&lD&#5634d1&lI&#4c43c9&lS&#4351c2&lC&#3a5fbb&lO&#306eb3&lR&#277cac&lD &f%username%%reply% &8>&f %message%"
-DiscordToMinecraftChatMessageFormatNoRole: "&#5f26d8&lD&#5634d1&lI&#4c43c9&lS&#4351c2&lC&#3a5fbb&lO&#306eb3&lR&#277cac&lD &f%username%%reply% &8>&f %message%"
+DiscordToMinecraftChatMessageFormat: "&#5f26d8&lD&#5634d1&lI&#4c43c9&lS&#4351c2&lC&#3a5fbb&lO&#306eb3&lR&#277cac&lD &f%name%%reply% &8>&f %message%"
+DiscordToMinecraftChatMessageFormatNoRole: "&#5f26d8&lD&#5634d1&lI&#4c43c9&lS&#4351c2&lC&#3a5fbb&lO&#306eb3&lR&#277cac&lD &f%name%%reply% &8>&f %message%"
 DiscordToMinecraftAllRolesSeparator: " | "
 DiscordToMinecraftMessageReplyFormat: " &f(replying to &b%name%&f)"
 

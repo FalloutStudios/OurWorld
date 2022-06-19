@@ -4,5 +4,4 @@ globalGroup:
   prefix: '%luckperms_prefix%'
   tabname: ''
   suffix: '%luckperms_suffix%'
-groups:
-  
+groups: {}

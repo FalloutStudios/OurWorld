@@ -218,7 +218,7 @@ blacklist:
     debug_stick:
       '*': '&cYou can not use debug sticks!'
     bedrock:
-      '*': '&cWTH that''s illegal!!!'
+      'place': '&cWTH that''s illegal!!!'
     command_block:
       '*': '&cWait that''s illegal! Why you have command block? sussy'
     end_portal_frame:

@@ -1,0 +1,1190 @@
+storageVersion: 1
+maps:
+  161:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 0
+    y: 0
+    scale: 1.0
+  162:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 0
+    y: 1
+    scale: 1.0
+  163:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 0
+    y: 2
+    scale: 1.0
+  164:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 0
+    y: 3
+    scale: 1.0
+  165:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 1
+    y: 0
+    scale: 1.0
+  166:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 1
+    y: 1
+    scale: 1.0
+  167:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 1
+    y: 2
+    scale: 1.0
+  168:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 1
+    y: 3
+    scale: 1.0
+  169:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 2
+    y: 0
+    scale: 1.0
+  170:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 2
+    y: 1
+    scale: 1.0
+  171:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 2
+    y: 2
+    scale: 1.0
+  172:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 2
+    y: 3
+    scale: 1.0
+  173:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 3
+    y: 0
+    scale: 1.0
+  174:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 3
+    y: 1
+    scale: 1.0
+  175:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 3
+    y: 2
+    scale: 1.0
+  176:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 3
+    y: 3
+    scale: 1.0
+  177:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 4
+    y: 0
+    scale: 1.0
+  178:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 4
+    y: 1
+    scale: 1.0
+  179:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 4
+    y: 2
+    scale: 1.0
+  180:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 4
+    y: 3
+    scale: 1.0
+  181:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 5
+    y: 0
+    scale: 1.0
+  182:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 5
+    y: 1
+    scale: 1.0
+  183:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 5
+    y: 2
+    scale: 1.0
+  184:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 5
+    y: 3
+    scale: 1.0
+  185:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 6
+    y: 0
+    scale: 1.0
+  186:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 6
+    y: 1
+    scale: 1.0
+  187:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 6
+    y: 2
+    scale: 1.0
+  188:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 6
+    y: 3
+    scale: 1.0
+  189:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 7
+    y: 0
+    scale: 1.0
+  190:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 7
+    y: 1
+    scale: 1.0
+  191:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 7
+    y: 2
+    scale: 1.0
+  192:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 7
+    y: 3
+    scale: 1.0
+  193:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 8
+    y: 0
+    scale: 1.0
+  194:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 8
+    y: 1
+    scale: 1.0
+  195:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 8
+    y: 2
+    scale: 1.0
+  196:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 8
+    y: 3
+    scale: 1.0
+  197:
+    ==: ImageMaps.Map
+    image: 711logo
+    x: 0
+    y: 0
+    scale: 1.0
+  198:
+    ==: ImageMaps.Map
+    image: 711logo
+    x: 0
+    y: 1
+    scale: 1.0
+  199:
+    ==: ImageMaps.Map
+    image: 711logo
+    x: 1
+    y: 0
+    scale: 1.0
+  200:
+    ==: ImageMaps.Map
+    image: 711logo
+    x: 1
+    y: 1
+    scale: 1.0
+  201:
+    ==: ImageMaps.Map
+    image: 711lines
+    x: 0
+    y: 0
+    scale: 1.0
+  202:
+    ==: ImageMaps.Map
+    image: 711lines
+    x: 0
+    y: 1
+    scale: 1.0
+  203:
+    ==: ImageMaps.Map
+    image: 711lines
+    x: 1
+    y: 0
+    scale: 1.0
+  204:
+    ==: ImageMaps.Map
+    image: 711lines
+    x: 1
+    y: 1
+    scale: 1.0
+  205:
+    ==: ImageMaps.Map
+    image: 711lines
+    x: 2
+    y: 0
+    scale: 1.0
+  206:
+    ==: ImageMaps.Map
+    image: 711lines
+    x: 2
+    y: 1
+    scale: 1.0
+  207:
+    ==: ImageMaps.Map
+    image: 711lines
+    x: 3
+    y: 0
+    scale: 1.0
+  208:
+    ==: ImageMaps.Map
+    image: 711lines
+    x: 3
+    y: 1
+    scale: 1.0
+  209:
+    ==: ImageMaps.Map
+    image: refrigirator1
+    x: 0
+    y: 0
+    scale: 1.0
+  210:
+    ==: ImageMaps.Map
+    image: refrigirator1
+    x: 0
+    y: 1
+    scale: 1.0
+  211:
+    ==: ImageMaps.Map
+    image: refrigirator2
+    x: 0
+    y: 0
+    scale: 1.0
+  212:
+    ==: ImageMaps.Map
+    image: refrigirator2
+    x: 0
+    y: 1
+    scale: 1.0
+  213:
+    ==: ImageMaps.Map
+    image: shelf1
+    x: 0
+    y: 0
+    scale: 1.0
+  214:
+    ==: ImageMaps.Map
+    image: shelf1
+    x: 0
+    y: 1
+    scale: 1.0
+  215:
+    ==: ImageMaps.Map
+    image: shelf1
+    x: 1
+    y: 0
+    scale: 1.0
+  216:
+    ==: ImageMaps.Map
+    image: shelf1
+    x: 1
+    y: 1
+    scale: 1.0
+  217:
+    ==: ImageMaps.Map
+    image: shelf1
+    x: 2
+    y: 0
+    scale: 1.0
+  218:
+    ==: ImageMaps.Map
+    image: shelf1
+    x: 2
+    y: 1
+    scale: 1.0
+  219:
+    ==: ImageMaps.Map
+    image: 711Banner
+    x: 0
+    y: 0
+    scale: 1.0
+  220:
+    ==: ImageMaps.Map
+    image: 711Banner
+    x: 0
+    y: 1
+    scale: 1.0
+  221:
+    ==: ImageMaps.Map
+    image: 711Banner
+    x: 1
+    y: 0
+    scale: 1.0
+  222:
+    ==: ImageMaps.Map
+    image: 711Banner
+    x: 1
+    y: 1
+    scale: 1.0
+  223:
+    ==: ImageMaps.Map
+    image: 711Banner
+    x: 2
+    y: 0
+    scale: 1.0
+  224:
+    ==: ImageMaps.Map
+    image: 711Banner
+    x: 2
+    y: 1
+    scale: 1.0
+  225:
+    ==: ImageMaps.Map
+    image: 711Banner2
+    x: 0
+    y: 0
+    scale: 1.0
+  226:
+    ==: ImageMaps.Map
+    image: 711Banner2
+    x: 0
+    y: 1
+    scale: 1.0
+  227:
+    ==: ImageMaps.Map
+    image: 711Banner2
+    x: 1
+    y: 0
+    scale: 1.0
+  228:
+    ==: ImageMaps.Map
+    image: 711Banner2
+    x: 1
+    y: 1
+    scale: 1.0
+  229:
+    ==: ImageMaps.Map
+    image: 711Banner2
+    x: 2
+    y: 0
+    scale: 1.0
+  230:
+    ==: ImageMaps.Map
+    image: 711Banner2
+    x: 2
+    y: 1
+    scale: 1.0
+  231:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 0
+    y: 0
+    scale: 1.0
+  232:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 0
+    y: 1
+    scale: 1.0
+  233:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 0
+    y: 2
+    scale: 1.0
+  234:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 0
+    y: 3
+    scale: 1.0
+  235:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 1
+    y: 0
+    scale: 1.0
+  236:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 1
+    y: 1
+    scale: 1.0
+  237:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 1
+    y: 2
+    scale: 1.0
+  238:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 1
+    y: 3
+    scale: 1.0
+  239:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 2
+    y: 0
+    scale: 1.0
+  240:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 2
+    y: 1
+    scale: 1.0
+  241:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 2
+    y: 2
+    scale: 1.0
+  242:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 2
+    y: 3
+    scale: 1.0
+  243:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 3
+    y: 0
+    scale: 1.0
+  244:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 3
+    y: 1
+    scale: 1.0
+  245:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 3
+    y: 2
+    scale: 1.0
+  246:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 3
+    y: 3
+    scale: 1.0
+  247:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 4
+    y: 0
+    scale: 1.0
+  248:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 4
+    y: 1
+    scale: 1.0
+  249:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 4
+    y: 2
+    scale: 1.0
+  250:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 4
+    y: 3
+    scale: 1.0
+  251:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 5
+    y: 0
+    scale: 1.0
+  252:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 5
+    y: 1
+    scale: 1.0
+  253:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 5
+    y: 2
+    scale: 1.0
+  254:
+    ==: ImageMaps.Map
+    image: ikeaLogo
+    x: 5
+    y: 3
+    scale: 1.0
+  255:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 0
+    y: 0
+    scale: 1.0
+  256:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 0
+    y: 1
+    scale: 1.0
+  257:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 0
+    y: 2
+    scale: 1.0
+  258:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 0
+    y: 3
+    scale: 1.0
+  259:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 0
+    y: 4
+    scale: 1.0
+  260:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 0
+    y: 5
+    scale: 1.0
+  261:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 1
+    y: 0
+    scale: 1.0
+  262:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 1
+    y: 1
+    scale: 1.0
+  263:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 1
+    y: 2
+    scale: 1.0
+  264:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 1
+    y: 3
+    scale: 1.0
+  265:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 1
+    y: 4
+    scale: 1.0
+  266:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 1
+    y: 5
+    scale: 1.0
+  267:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 2
+    y: 0
+    scale: 1.0
+  268:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 2
+    y: 1
+    scale: 1.0
+  269:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 2
+    y: 2
+    scale: 1.0
+  270:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 2
+    y: 3
+    scale: 1.0
+  271:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 2
+    y: 4
+    scale: 1.0
+  272:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 2
+    y: 5
+    scale: 1.0
+  273:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 3
+    y: 0
+    scale: 1.0
+  274:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 3
+    y: 1
+    scale: 1.0
+  275:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 3
+    y: 2
+    scale: 1.0
+  276:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 3
+    y: 3
+    scale: 1.0
+  277:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 3
+    y: 4
+    scale: 1.0
+  278:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 3
+    y: 5
+    scale: 1.0
+  279:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 4
+    y: 0
+    scale: 1.0
+  280:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 4
+    y: 1
+    scale: 1.0
+  281:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 4
+    y: 2
+    scale: 1.0
+  282:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 4
+    y: 3
+    scale: 1.0
+  283:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 4
+    y: 4
+    scale: 1.0
+  284:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 4
+    y: 5
+    scale: 1.0
+  285:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 5
+    y: 0
+    scale: 1.0
+  286:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 5
+    y: 1
+    scale: 1.0
+  287:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 5
+    y: 2
+    scale: 1.0
+  288:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 5
+    y: 3
+    scale: 1.0
+  289:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 5
+    y: 4
+    scale: 1.0
+  290:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 5
+    y: 5
+    scale: 1.0
+  291:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 6
+    y: 0
+    scale: 1.0
+  292:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 6
+    y: 1
+    scale: 1.0
+  293:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 6
+    y: 2
+    scale: 1.0
+  294:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 6
+    y: 3
+    scale: 1.0
+  295:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 6
+    y: 4
+    scale: 1.0
+  296:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 6
+    y: 5
+    scale: 1.0
+  297:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 7
+    y: 0
+    scale: 1.0
+  298:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 7
+    y: 1
+    scale: 1.0
+  299:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 7
+    y: 2
+    scale: 1.0
+  300:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 7
+    y: 3
+    scale: 1.0
+  301:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 7
+    y: 4
+    scale: 1.0
+  302:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 7
+    y: 5
+    scale: 1.0
+  303:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 8
+    y: 0
+    scale: 1.0
+  304:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 8
+    y: 1
+    scale: 1.0
+  305:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 8
+    y: 2
+    scale: 1.0
+  306:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 8
+    y: 3
+    scale: 1.0
+  307:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 8
+    y: 4
+    scale: 1.0
+  308:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 8
+    y: 5
+    scale: 1.0
+  309:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 9
+    y: 0
+    scale: 1.0
+  310:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 9
+    y: 1
+    scale: 1.0
+  311:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 9
+    y: 2
+    scale: 1.0
+  312:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 9
+    y: 3
+    scale: 1.0
+  313:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 9
+    y: 4
+    scale: 1.0
+  314:
+    ==: ImageMaps.Map
+    image: ikeaAd
+    x: 9
+    y: 5
+    scale: 1.0
+  315:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 0
+    y: 4
+    scale: 1.0
+  316:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 0
+    y: 5
+    scale: 1.0
+  317:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 1
+    y: 4
+    scale: 1.0
+  318:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 1
+    y: 5
+    scale: 1.0
+  319:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 2
+    y: 4
+    scale: 1.0
+  320:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 2
+    y: 5
+    scale: 1.0
+  321:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 3
+    y: 4
+    scale: 1.0
+  322:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 3
+    y: 5
+    scale: 1.0
+  323:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 4
+    y: 4
+    scale: 1.0
+  324:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 4
+    y: 5
+    scale: 1.0
+  325:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 5
+    y: 4
+    scale: 1.0
+  326:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 5
+    y: 5
+    scale: 1.0
+  327:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 6
+    y: 4
+    scale: 1.0
+  328:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 6
+    y: 5
+    scale: 1.0
+  329:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 7
+    y: 4
+    scale: 1.0
+  330:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 7
+    y: 5
+    scale: 1.0
+  331:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 8
+    y: 4
+    scale: 1.0
+  332:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 8
+    y: 5
+    scale: 1.0
+  333:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 9
+    y: 0
+    scale: 1.0
+  334:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 9
+    y: 1
+    scale: 1.0
+  335:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 9
+    y: 2
+    scale: 1.0
+  336:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 9
+    y: 3
+    scale: 1.0
+  337:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 9
+    y: 4
+    scale: 1.0
+  338:
+    ==: ImageMaps.Map
+    image: ikeaBanner
+    x: 9
+    y: 5
+    scale: 1.0
+  339:
+    ==: ImageMaps.Map
+    image: entranceSign
+    x: 0
+    y: 0
+    scale: 1.0
+  340:
+    ==: ImageMaps.Map
+    image: entranceSign
+    x: 1
+    y: 0
+    scale: 1.0
+  341:
+    ==: ImageMaps.Map
+    image: exitSign
+    x: 0
+    y: 0
+    scale: 1.0
+  342:
+    ==: ImageMaps.Map
+    image: exitSign
+    x: 1
+    y: 0
+    scale: 1.0
+  410:
+    ==: ImageMaps.Map
+    image: greenscreen
+    x: 0
+    y: 0
+    scale: 1.0
+  411:
+    ==: ImageMaps.Map
+    image: greenscreen
+    x: 0
+    y: 1
+    scale: 1.0
+  412:
+    ==: ImageMaps.Map
+    image: greenscreen
+    x: 0
+    y: 2
+    scale: 1.0
+  413:
+    ==: ImageMaps.Map
+    image: greenscreen
+    x: 0
+    y: 3
+    scale: 1.0
+  414:
+    ==: ImageMaps.Map
+    image: greenscreen
+    x: 1
+    y: 0
+    scale: 1.0
+  415:
+    ==: ImageMaps.Map
+    image: greenscreen
+    x: 1
+    y: 1
+    scale: 1.0
+  416:
+    ==: ImageMaps.Map
+    image: greenscreen
+    x: 1
+    y: 2
+    scale: 1.0
+  417:
+    ==: ImageMaps.Map
+    image: greenscreen
+    x: 1
+    y: 3
+    scale: 1.0
+  418:
+    ==: ImageMaps.Map
+    image: greenscreen
+    x: 2
+    y: 0
+    scale: 1.0
+  419:
+    ==: ImageMaps.Map
+    image: greenscreen
+    x: 2
+    y: 1
+    scale: 1.0
+  420:
+    ==: ImageMaps.Map
+    image: greenscreen
+    x: 2
+    y: 2
+    scale: 1.0
+  421:
+    ==: ImageMaps.Map
+    image: greenscreen
+    x: 2
+    y: 3
+    scale: 1.0
+  422:
+    ==: ImageMaps.Map
+    image: greenscreen
+    x: 3
+    y: 0
+    scale: 1.0
+  423:
+    ==: ImageMaps.Map
+    image: greenscreen
+    x: 3
+    y: 1
+    scale: 1.0
+  424:
+    ==: ImageMaps.Map
+    image: greenscreen
+    x: 3
+    y: 2
+    scale: 1.0
+  425:
+    ==: ImageMaps.Map
+    image: greenscreen
+    x: 3
+    y: 3
+    scale: 1.0

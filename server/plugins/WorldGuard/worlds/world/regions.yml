@@ -10,25 +10,35 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
+    fly:
+        min: {x: 14646, y: 47, z: 33391}
+        max: {x: 14669, y: 52, z: 33406}
+        members: {}
+        flags: {fly: allow}
+        owners: {}
+        type: cuboid
+        priority: 0
     spawn:
         min: {x: 52, y: 1, z: 107}
         max: {x: 337, y: 121, z: 341}
         members: {}
         flags:
+            time-lock: midnight
             other-explosion: deny
             blocked-effects: [SPEED, JUMP, INVISIBILITY]
             lava-fire: deny
             respawn-location: {world: world, x: 223.58749715370274, y: 71.0625, z: 241.57087765431552,
                 pitch: 2.3999722, yaw: 0.60076904}
+            disable-collision: true
             ice-melt: deny
-            block-trampling: deny
             leaf-decay: deny
-            firework-damage: deny
-            chunk-unload: deny
+            block-trampling: deny
             weather-lock: clear
+            chunk-unload: deny
+            firework-damage: deny
             fire-spread: deny
-            crawl: deny
             enderdragon-block-damage: deny
+            crawl: deny
             sleep: deny
             coral-fade: deny
             snowman-trails: deny
@@ -43,24 +53,33 @@ regions:
             chorus-fruit-teleport: deny
             pose: deny
             enderman-grief: deny
-            pistons: deny
             pvp: deny
-            mob-spawning: deny
+            deny-spawn: ['minecraft:skeleton', 'minecraft:spider', 'minecraft:zombie',
+                'minecraft:creeper', 'minecraft:sheep']
             frostwalker: deny
             enderpearl: deny
             soil-dry: deny
             creeper-explosion: deny
             vine-growth: deny
-            game-mode: adventure
+            blocked-cmds: [/tpno, /tpa, /back, /sethome, /tpdeny, /tpyes, /tpaccept]
             fall-damage: deny
-            item-durability: deny
+            game-mode: adventure
             item-frame-rotation: deny
-            snow-melt: deny
+            item-durability: deny
             frosted-ice-melt: deny
-            glide: DENY
+            snow-melt: deny
+            glide: deny
             tnt: deny
             entity-item-frame-destroy: deny
             ghast-fireball: deny
+        owners: {}
+        type: cuboid
+        priority: 0
+    ikea:
+        min: {x: 111, y: 62, z: 615}
+        max: {x: 207, y: 95, z: 693}
+        members: {}
+        flags: {mob-spawning: deny}
         owners: {}
         type: cuboid
         priority: 0

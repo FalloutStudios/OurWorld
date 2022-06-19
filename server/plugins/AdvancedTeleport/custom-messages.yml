@@ -1,18 +1,14 @@
-###############################################################################
-#                          -<( AdvancedTeleport )>-                           #
-#                     Made by Niestrat99 and Thatsmusic99                     #
-#                                                                             #
-###############################################################################
-
-
 Teleport:
   eventBeforeTP: '&7[&3Teleport&7] &r &7Teleporting in &b{countdown} seconds&7, please
     do not move!'
   # This is an example use for titles and subtitles in the plugin.
   # This feature is supported only if you're on version 1.8.8 or newer.
   eventBeforeTP_title:
+    # How many seconds (in ticks) the header should last. This is not including fading.
     length: 80
+    # How many seconds (in ticks) the header should take to fade in.
     fade-in: 0
+    # How many seconds (in ticks) the header should take to fade out.
     fade-out: 10
     '0': '&7&lTeleporting...'
     '20': '&b> &7&lTeleporting... &b<'
@@ -150,6 +146,9 @@ Error:
   notEnoughItems: |-
     &7[&3Teleport&7] &r &7You do not have enough items to teleport there!
     &7[&3Teleport&7] &r &7You need at least &b{amount} {type}(s)!
+  mirrorSpawnFail: '&b↑ &8» &7Failed to mirror &b{from}&7''s spawnpoint to &b{spawn}&7!'
+  removeSpawnFail: '&b↑ &8» &7Failed to remove the spawnpoint &b{spawn}&7!'
+  setMainSpawnFail: '&b↑ &8» &7Failed to set the main spawnpoint &b{spawn}&7!'
 Info:
   tpOff: '&7[&3Teleport&7] &r &7Successfully disabled teleport requests!'
   tpOn: '&7[&3Teleport&7] &r &7Successfully enabled teleport requests!'
