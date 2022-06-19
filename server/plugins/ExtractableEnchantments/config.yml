@@ -1,0 +1,85 @@
+# In this file you can configure extractors, dust and books.
+# For more information about configuration visit:
+#    https://www.spigotmc.org/resources/extractable-enchantments.73954/
+
+# In this file you can configure extractors, dust and books.
+# For more information about configuration visit:
+#    https://www.spigotmc.org/resources/extractable-enchantments.73954/
+Extractors:
+  default:
+    Material: NETHER_BRICK
+    Name: '&bEnchantment Extractor'
+    Info:
+    - '&8* &3Drag and drop onto an item'
+    - '&3to remove a random enchantment!'
+    Glint: true
+    CustomModelData: 1
+    Chance:
+      Toggle: false
+      Destroy: false
+      Min: 1
+      Max: 100
+    Cost:
+      Toggle: false
+      Type: EXPERIENCE_POINTS
+      Material: GOLD_INGOT
+      Value: 32
+    Extract:
+      Unsafe: true
+    Book:
+      Chance:
+        Force: false
+        Value: 100
+    Extraction: RANDOM
+    Filter: ALL
+    Constraints: []
+    Recipe:
+      Toggle: true
+      Matrix:
+      - EXPERIENCE_BOTTLE
+      - LAPIS_BLOCK
+      - EXPERIENCE_BOTTLE
+      - LAPIS_BLOCK
+      - BOOK
+      - LAPIS_BLOCK
+      - EXPERIENCE_BOTTLE
+      - LAPIS_BLOCK
+      - EXPERIENCE_BOTTLE
+Dusts:
+  default:
+    Material: SUGAR
+    Name: '&eDust of Chance &b(%percent%%)'
+    Info:
+    - '&8* &6Drag and drop onto an extractor'
+    - '&6to increase its extraction chance!'
+    - ''
+    - '&8* &7Middle click to split in half.'
+    Glint: true
+    CustomModelData: 1
+    Allowed:
+    - default
+    Books: false
+    Limit: -1
+    Recipe:
+      Toggle: false
+      Percent: 10
+      Matrix:
+      - EMPTY
+      - REDSTONE
+      - EMPTY
+      - REDSTONE
+      - GLOWSTONE
+      - REDSTONE
+      - EMPTY
+      - REDSTONE
+      - EMPTY
+Book:
+  Chance:
+    Toggle: false
+    Min: 1
+    Max: 100
+Anvil:
+  Apply:
+    Books: true
+    Unfase: false
+    Restrict: []
